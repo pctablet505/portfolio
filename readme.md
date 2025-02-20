@@ -8,8 +8,30 @@ Working with AI problems related to computer vision,and sensor data. The main pr
 
 ## Experience
 
+- ### [Google](https://www.qualcomm.com/)
+	**Software Engineer(Machine Learning)**
+
+	Working with Keras Team
+
+	📅 Feb 2025-Present
+
+	🗺 Hyderabad, India
+
+	---
+
+- ### [Qualcomm](https://www.qualcomm.com/)
+	**Machine Learning Engineer**
+
+	Worked with on-device AI implementation, DSP optimized solutions, and android demo for SOTA computer vision applications.
+
+	📅 Sept 2024-Jan 2025
+
+	🗺 Hyderabad, India
+
+	---
+
 - ### [Samsung R&D Institute India](https://research.samsung.com/sri-n)
-	**R&D Engineer**
+	**Research & Development Engineer**
 
 	Worked with different AI problems, mostly with computer vision and sensor data. Dveloped end to end solutions, include complete android app, web server and on Device AI.
 
@@ -285,10 +307,10 @@ Working with AI problems related to computer vision,and sensor data. The main pr
 - **Phone** [+91-8709253658](tel:+91-8709253658)
 - **Mail** [work.rahul126@gmail.com](mailto:work.rahul126@gmail.com)
 - **LinkedIn** [@rahul126](https://www.linkedin.com/in/rahul126)
-- **Website** [https://github.com/stopslavery404/portfolio](https://github.com/stopslavery404/portfolio)
+- **Website** [https://github.com/pctablet505/portfolio](https://github.com/pctablet505/portfolio)
 - **Hackerrank** [@stopslavery404](https://www.hackerrank.com/stopslavery404)
 - **GitHub** [@stopslavery404](https://www.github.com/stopslavery404)
-- **Instagram** [@hello._world_.me](https://www.instagram.com/hello._world_.me)
+- **Instagram** [@hellorahul.me](https://www.instagram.com/hellorahul.me)
 - **Youtube** [YouTube](https://www.youtube.com/channel/UCnRPtPB_CXs1ngGlwKqP-yw)
 
 
