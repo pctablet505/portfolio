@@ -115,27 +115,45 @@ Working with AI problems related to computer vision and sensor data. The main pr
 	___
 2.	### SRIN-Satyapan
 
-	Anti-Cheat proctored exam solution. Complete Backend Server, Android App and Web Portal. Face Recognition based candidate login, malpractice detection using missing person, multiple person detection, other person detection, distraction detection.
+	Engineered a comprehensive anti-cheat proctored exam platform featuring advanced face recognition for secure candidate authentication and real-time face detection to flag potential plagiarism. Delivered a full-stack solution encompassing a web portal for examiners, a robust Android application for candidates, and a centralized server for seamless data management and AI-driven monitoring, ensuring integrity in remote assessments.
+	
+	- Real-time face recognition-based authentication for candidates.
+	- Intelligent flagging of multiple persons or unauthorized individuals on screen, with safeguards to avoid false positives for random exam hall appearances.
+	- Detection of unfair behaviors such as talking or suspicious activities during exams.
+	- Comprehensive server-side exam portal including question uploading for examiners, result and registration portals for HRs, with question and option randomization to prevent copying.
+	- Scalable system supporting over 10,000+ registered faces with successful recognition.
+	- Auto-update features for Android apps to ensure seamless testing.
+	- Kiosk mode implementation to prevent software tampering on managed devices.
 
 	___
 3.	### Face Recognition
 
-	<p>Developed a solution for real-time multiple face recognition in live camera frames. Also developed desktop app for offline videos, and surveillance system.</p>
+	- Developed an advanced real-time multiple face recognition system for live camera feeds and offline video processing.
+	- Optimized database search efficiency from linear to logarithmic time complexity, achieving a dramatic reduction in search time from 1200ms to 87ms on Android tablets for face embedding searches.
+	- Generated a custom dataset of face embeddings and trained a proprietary classifier on this dataset to enhance recognition accuracy and surpass limitations of standard methods.
+	- Built integrated surveillance and entry management systems leveraging this technology for enhanced security and access control.
+	- Provided recognition solutions for static photos, videos, and real-time camera feeds, compatible across Android, Windows, and Linux platforms.
 
 	___
 4.	### Distraction Detection
 
-	<p>Solution to detect whether person sitting in front of screen is paying attention or distracted. Based on facial expressions, eye movement, yawn detection, head pose and face detection.</p>
+	Implemented an intelligent system to monitor user attention during screen-based activities, utilizing facial expression analysis, eye movement tracking, yawn detection, head pose estimation, and robust face detection algorithms to accurately identify distracted states and promote focused engagement. This solution was deployed on Android devices and integrated into SRI-N Satyapan for enhanced proctoring capabilities.
 
 	___
 5.	### Car Crash Detection
 
-	<p>Solution to detect occurence of car crash and send SOS. Used mobile sensor data and GPS and developed an algorithm using time series data analysis.</p>
+	- Created a smartphone-based emergency response system to detect car crash incidents in real-time using onboard sensors, automatically triggering SOS alerts to designated contacts for rapid assistance and improved road safety.
+	- Overcame the major challenge of insufficient accident sensor data by collecting comprehensive datasets from non-accident scenarios including rash driving, phone throwing, loud music, and movies.
+	- Developed a statistical model to accurately flag potential accidents.
+	- Implemented the solution on Android phones for seamless integration.
 
 	___
 6.	### Drop Detection
 
-	<p>Phone drop detection, height estimation, collision surface classification, drop/catch verification.</p>
+	- Achieved a groundbreaking reduction in model parameters from millions to fewer than 20, maintaining high accuracy with only a minimal drop from 98% to 96%, enabling efficient on-device deployment.
+	- Developed a sophisticated mobile solution for detecting phone drops, estimating fall height, classifying collision surface hardness, and verifying drop versus catch events through advanced sensor fusion and predictive analytics.
+	- Replaced the existing deep learning-based solution with efficient statistical models and simple ML algorithms.
+	- Significantly improved power consumption and computational efficiency.
 
 	___
 7.	### [PacMan AI](https://inst.eecs.berkeley.edu/~cs188/sp21/project1/)
@@ -258,7 +276,6 @@ Working with AI problems related to computer vision and sensor data. The main pr
 	<p>A lite app to get quotes of stocks and to perform buy, sell stocks.          Technologies used: Flask, SQL, APIs, JSON, Heroku, GIT.         </p>
 
 	___
-
 
 ---
 
