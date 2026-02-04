@@ -2,7 +2,7 @@
 
 ## Summary
 
-Working with AI problems related to computer vision,and sensor data. The main projects included damaged barcode scanning, face recognition, distraction detection, car crash, and phone drop detection. Developing complete solutions including android app, on-device AI, backend server, and web portals.
+Working with AI problems related to computer vision and sensor data. The main projects included damaged barcode scanning, face recognition, distraction detection, car crash, and phone drop detection. Developing complete solutions including android app, on-device AI, backend server, and web portals.
 
 ---
 
@@ -33,7 +33,7 @@ Working with AI problems related to computer vision,and sensor data. The main pr
 - ### [Samsung R&D Institute India](https://research.samsung.com/sri-n)
 	**Research & Development Engineer**
 
-	Worked with different AI problems, mostly with computer vision and sensor data. Dveloped end to end solutions, include complete android app, web server and on Device AI.
+	Worked with different AI problems, mostly with computer vision and sensor data. Developed end to end solutions, include complete android app, web server and on Device AI.
 
 	📅 July 2022-Present
 
@@ -99,12 +99,23 @@ Working with AI problems related to computer vision,and sensor data. The main pr
 
 1.	### Knox Capture
 
-	<p>Developed a solution to scan damaged barcode on phone. Involved synthetic dataset generation and computer vision.</p>
+	Led the development of an innovative solution for scanning damaged barcodes on mobile devices, leveraging advanced synthetic dataset generation and cutting-edge computer vision techniques to overcome real-world challenges.
+	
+	- Pioneered a comprehensive barcode scanning system encompassing detection, segmentation, damage correction, and decoding of compromised barcodes.
+	- Engineered a groundbreaking algorithm integrating mathematics, statistics, and geometric transformations to produce high-fidelity, photorealistic synthetic datasets, addressing the critical shortage of natural damaged barcode data.
+	- Deployed YOLOv11 for precise barcode detection in complex environments.
+	- Utilized Mask R-CNN for superior image segmentation, enabling accurate isolation of barcode regions.
+	- Implemented a U-Net-based encoder-decoder architecture for intelligent damage correction and restoration.
+	- Integrated a ResNet classifier for robust categorization of barcode types across diverse formats.
+	- Orchestrated full end-to-end deployment: from algorithmic problem formulation and probabilistic dataset synthesis incorporating reflection physics, through rigorous deep learning model training for detection, segmentation, correction, and classification, culminating in optimized on-device Android implementation with hardware-accelerated camera integration and ultra-fast ML inference capabilities.
+	- Addressed limitations of the Muenster Barcode Database, which lacks sufficient damaged barcode samples for robust training, by creating a synthetic dataset that enabled superior model performance.
+	- Benchmarking revealed that existing solutions achieved approximately 84% detection accuracy and 67% correct decoding on damaged barcodes; our innovative approach elevated these metrics to 70-75% for both detection and decoding, representing a significant leap in reliability.
+	- Introduced confidence score prediction for detections, allowing the system to intelligently assess barcode damage levels and abstain from restoration when damage exceeds recoverable thresholds, thereby drastically reducing incorrect decoding rates and enhancing overall system trustworthiness.
 
 	___
 2.	### SRIN-Satyapan
 
-	<p>Anti-Cheat proctored exam solution. Complete Backend Server, Android App and Web Portal. Face Recognition based candidate login, malpractice detection using missing person, multiple person detection, other person detection, distraction detection.</p>
+	Anti-Cheat proctored exam solution. Complete Backend Server, Android App and Web Portal. Face Recognition based candidate login, malpractice detection using missing person, multiple person detection, other person detection, distraction detection.
 
 	___
 3.	### Face Recognition
@@ -259,7 +270,7 @@ Working with AI problems related to computer vision,and sensor data. The main pr
 - **Machine Learning**: Regression, Classification, Clustering, Recommendation, Collaborative Filtering, Non-Parametric Models
 - **Tools and Libraries**: TensorFlow, PyTorch, Keras, Scikit-Learn, Seaborn, Matplotlib, OpenCV
 - **Computer Vision**: Object Detection, Image Segmentation, Geometric Transformations, Synthetic Dataset Geneation, Object Tracking
-- **Android Development**: Java,, Kotlin, ML model porting, Services, Fragments, Rest APIs, Sensor Access, Python Script on Android
+- **Android Development**: Java, Kotlin, ML model porting, Services, Fragments, Rest APIs, Sensor Access, Python Script on Android
 - **Web Development**: JavaScript, Flask, Django, HTML, SAAS, CSS, Bootstrap, SQL, MVC, Git
 - **IOT**: Arduino, Sensors, Wireless Control
 
