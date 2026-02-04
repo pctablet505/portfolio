@@ -1,11 +1,27 @@
 [
     {
+        "company": "Google",
+        "location": "Hyderabad, India",
+        "website": "https://www.google.com/",
+        "duration": "Feb 2025-Present",
+        "position": "Software Engineer (Machine Learning)",
+        "description": "Working with Keras Team"
+    },
+    {
+        "company": "Qualcomm",
+        "location": "Hyderabad, India",
+        "website": "https://www.qualcomm.com/",
+        "duration": "Sept 2024-Jan 2025",
+        "position": "Machine Learning Engineer",
+        "description": "Worked with on-device AI implementation, DSP optimized solutions, and android demo for SOTA computer vision applications."
+    },
+    {
         "company": "Samsung R&D Institute India",
         "location": "Noida, India",
         "website": "https://research.samsung.com/sri-n",
         "duration": "July 2022-Present",
-        "position": "R&D Engineer",
-        "description": "Worked with different AI problems, mostly with computer vision and sensor data. Dveloped end to end solutions, include complete android app, web server and on Device AI."
+        "position": "Research & Development Engineer",
+        "description": "Worked with different AI problems, mostly with computer vision and sensor data. Developed end-to-end solutions, include complete android app, web server and on-device AI."
     },
     {
         "company": "Samsung R&D Institute India",
@@ -15,5 +31,4 @@
         "position": "Intern",
         "description": "Worked with Android Studio, learnt generative AI using Cycle GAN, training for SWC."
     }
-    
 ]

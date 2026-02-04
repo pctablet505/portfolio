@@ -8,7 +8,7 @@ Created on Sun Mar 24 13:23:22 2024
 import json
 import os
 import sys
-homedir = r'C:/Users/pctab/Dropbox/Projects/Homepage/homepage/'
+homedir = r'C:\projects\Google\portfolio\homepage'
 
 
 def get_paragraph(string):
@@ -60,36 +60,42 @@ project_str = ''
 
 for i, e in enumerate(projects):
     x = ''
+    bullets_str = ''
+    
+    # Generate bullets if they exist
+    if 'bullets' in e and e['bullets']:
+        for bullet in e['bullets']:
+            bullets_str += '\n\t- ' + bullet
+    
+    # Build the project entry based on what fields are present
     if e['demonstration'] != '' and e['code'] != '':
-        x = '''{}.\t### [{}]({})\n\n\t<p>{}</p>\n\n\t[code]({})\n\n\t___'''.format(
+        x = '''{}.\t### [{}]({})\n\n\t{}{}\n\n\t[code]({})\n\n\t___'''.format(
             i+1,
             e['title'],
             e['demonstration'],
-            get_paragraph(
-                e['description']),
+            e['description'],
+            bullets_str,
             e['code'])
     elif e['demonstration'] != '':
-        x = '''{}.\t### [{}]({})\n\n\t<p>{}</p>\n\n\t___'''.format(
+        x = '''{}.\t### [{}]({})\n\n\t{}{}\n\n\t___'''.format(
             i+1,
             e['title'],
             e['demonstration'],
-            get_paragraph(
-                e['description']),
-        )
+            e['description'],
+            bullets_str)
     elif e['code'] != '':
-        x = '''{}.\t### {}\n\n\t<p>{}</p>\n\n\t[code]({})\n\n\t___'''.format(
+        x = '''{}.\t### {}\n\n\t{}{}\n\n\t[code]({})\n\n\t___'''.format(
             i+1,
             e['title'],
-            get_paragraph(
-                e['description']),
+            e['description'],
+            bullets_str,
             e['code'])
     else:
-        x = '''{}.\t### {}\n\n\t<p>{}</p>\n\n\t___'''.format(
+        x = '''{}.\t### {}\n\n\t{}{}\n\n\t___'''.format(
             i+1,
             e['title'],
-            get_paragraph(
-                e['description'])
-        )
+            e['description'],
+            bullets_str)
     project_str += x+'\n'
 # print(project_str)
 

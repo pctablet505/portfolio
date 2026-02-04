@@ -2,14 +2,14 @@
 
 ## Summary
 
-Working with AI problems related to computer vision and sensor data. The main projects included damaged barcode scanning, face recognition, distraction detection, car crash, and phone drop detection. Developing complete solutions including android app, on-device AI, backend server, and web portals.
+Working with AI problems related to computer vision,and sensor data. The main projects included damaged barcode scanning, face recognition, distraction detection, car crash, and phone drop detection. Developing complete solutions including android app, on-device AI, backend server, and web portals.
 
 ---
 
 ## Experience
 
-- ### [Google](https://www.qualcomm.com/)
-	**Software Engineer(Machine Learning)**
+- ### [Google](https://www.google.com/)
+	**Software Engineer (Machine Learning)**
 
 	Working with Keras Team
 
@@ -18,7 +18,6 @@ Working with AI problems related to computer vision and sensor data. The main pr
 	🗺 Hyderabad, India
 
 	---
-
 - ### [Qualcomm](https://www.qualcomm.com/)
 	**Machine Learning Engineer**
 
@@ -29,11 +28,10 @@ Working with AI problems related to computer vision and sensor data. The main pr
 	🗺 Hyderabad, India
 
 	---
-
 - ### [Samsung R&D Institute India](https://research.samsung.com/sri-n)
 	**Research & Development Engineer**
 
-	Worked with different AI problems, mostly with computer vision and sensor data. Developed end to end solutions, include complete android app, web server and on Device AI.
+	Worked with different AI problems, mostly with computer vision and sensor data. Developed end-to-end solutions, include complete android app, web server and on-device AI.
 
 	📅 July 2022-Present
 
@@ -97,10 +95,20 @@ Working with AI problems related to computer vision and sensor data. The main pr
 
 ## Projects
 
-1.	### Knox Capture
+1.	### Algorithmic Trading (RL Alpha Labs)
+
+	Leading the development of an AI-driven trading platform tailored for the Indian stock market, integrating advanced reinforcement learning and heuristic strategies for optimized portfolio management.
+	- Leveraged Kite-Connect API from Zerodha to build a robust historical data downloader, efficiently retrieving and storing comprehensive market data for stocks, ETFs, and other instruments in a high-performance database.
+	- Designed a custom user interface for seamless portfolio management, real-time paper trading, and algorithm-based automated execution.
+	- Engineered heuristic algorithms driven by technical signals for accurate trade simulation and backtesting.
+	- Created a versatile trading environment supporting heuristic, strategy-based, and reinforcement learning agents, with full portfolio management simulation.
+	- Implemented advanced risk management and loss tolerance systems to ensure agent stability and compliance.
+	- Developing a sophisticated reinforcement learning agent with shared learnable parameters to trade across diverse entities, including multiple stocks, markets, brokers, cryptocurrencies, equities, and commodities.
+
+	___
+2.	### Knox Capture
 
 	Led the development of an innovative solution for scanning damaged barcodes on mobile devices, leveraging advanced synthetic dataset generation and cutting-edge computer vision techniques to overcome real-world challenges.
-	
 	- Pioneered a comprehensive barcode scanning system encompassing detection, segmentation, damage correction, and decoding of compromised barcodes.
 	- Engineered a groundbreaking algorithm integrating mathematics, statistics, and geometric transformations to produce high-fidelity, photorealistic synthetic datasets, addressing the critical shortage of natural damaged barcode data.
 	- Deployed YOLOv11 for precise barcode detection in complex environments.
@@ -113,10 +121,9 @@ Working with AI problems related to computer vision and sensor data. The main pr
 	- Introduced confidence score prediction for detections, allowing the system to intelligently assess barcode damage levels and abstain from restoration when damage exceeds recoverable thresholds, thereby drastically reducing incorrect decoding rates and enhancing overall system trustworthiness.
 
 	___
-2.	### SRIN-Satyapan
+3.	### SRIN-Satyapan
 
 	Engineered a comprehensive anti-cheat proctored exam platform featuring advanced face recognition for secure candidate authentication and real-time face detection to flag potential plagiarism. Delivered a full-stack solution encompassing a web portal for examiners, a robust Android application for candidates, and a centralized server for seamless data management and AI-driven monitoring, ensuring integrity in remote assessments.
-	
 	- Real-time face recognition-based authentication for candidates.
 	- Intelligent flagging of multiple persons or unauthorized individuals on screen, with safeguards to avoid false positives for random exam hall appearances.
 	- Detection of unfair behaviors such as talking or suspicious activities during exams.
@@ -126,8 +133,9 @@ Working with AI problems related to computer vision and sensor data. The main pr
 	- Kiosk mode implementation to prevent software tampering on managed devices.
 
 	___
-3.	### Face Recognition
+4.	### Face Recognition
 
+	Developed an advanced real-time multiple face recognition system for live camera feeds and offline video processing.
 	- Developed an advanced real-time multiple face recognition system for live camera feeds and offline video processing.
 	- Optimized database search efficiency from linear to logarithmic time complexity, achieving a dramatic reduction in search time from 1200ms to 87ms on Android tablets for face embedding searches.
 	- Generated a custom dataset of face embeddings and trained a proprietary classifier on this dataset to enhance recognition accuracy and surpass limitations of standard methods.
@@ -135,160 +143,163 @@ Working with AI problems related to computer vision and sensor data. The main pr
 	- Provided recognition solutions for static photos, videos, and real-time camera feeds, compatible across Android, Windows, and Linux platforms.
 
 	___
-4.	### Distraction Detection
+5.	### Distraction Detection
 
 	Implemented an intelligent system to monitor user attention during screen-based activities, utilizing facial expression analysis, eye movement tracking, yawn detection, head pose estimation, and robust face detection algorithms to accurately identify distracted states and promote focused engagement. This solution was deployed on Android devices and integrated into SRI-N Satyapan for enhanced proctoring capabilities.
 
 	___
-5.	### Car Crash Detection
+6.	### Car Crash Detection
 
+	Created a smartphone-based emergency response system to detect car crash incidents in real-time using onboard sensors, automatically triggering SOS alerts to designated contacts for rapid assistance and improved road safety.
 	- Created a smartphone-based emergency response system to detect car crash incidents in real-time using onboard sensors, automatically triggering SOS alerts to designated contacts for rapid assistance and improved road safety.
 	- Overcame the major challenge of insufficient accident sensor data by collecting comprehensive datasets from non-accident scenarios including rash driving, phone throwing, loud music, and movies.
 	- Developed a statistical model to accurately flag potential accidents.
 	- Implemented the solution on Android phones for seamless integration.
 
 	___
-6.	### Drop Detection
+7.	### Drop Detection
 
+	Achieved a groundbreaking reduction in model parameters from millions to fewer than 20, maintaining high accuracy with only a minimal drop from 98% to 96%, enabling efficient on-device deployment.
 	- Achieved a groundbreaking reduction in model parameters from millions to fewer than 20, maintaining high accuracy with only a minimal drop from 98% to 96%, enabling efficient on-device deployment.
 	- Developed a sophisticated mobile solution for detecting phone drops, estimating fall height, classifying collision surface hardness, and verifying drop versus catch events through advanced sensor fusion and predictive analytics.
 	- Replaced the existing deep learning-based solution with efficient statistical models and simple ML algorithms.
 	- Significantly improved power consumption and computational efficiency.
 
 	___
-7.	### [PacMan AI](https://inst.eecs.berkeley.edu/~cs188/sp21/project1/)
+8.	### [PacMan AI](https://inst.eecs.berkeley.edu/~cs188/sp21/project1/)
 
-	<p>AI based intelligent agent to control pacman in different environments.              The pacman plays against the ghosts and tries to eat all food while staying safe from ghosts              and finishing in minimum time.             The pacman uses different methods like A* Search, Heuristics, Reinforcement Learning with different parameters. </p>
+	AI-based intelligent agent to control Pacman in different environments. The Pacman plays against the ghosts and tries to eat all food while staying safe from ghosts and finishing in minimum time. The Pacman uses different methods like A* Search, Heuristics, Reinforcement Learning with different parameters.
 
 	[code](https://github.com/stopslavery404/CS188-AI/tree/main/proj1-search-python3)
 
 	___
-8.	### Automatic Review Analyzer
+9.	### Automatic Review Analyzer
 
-	<p>Sentiment Analysis for customer reviews. Using simple perceptron algorithm</p>
+	Sentiment analysis for customer reviews using a simple perceptron algorithm.
 
 	[code](https://github.com/stopslavery404/Machine-Learning/tree/main/Project1/sentiment_analysis)
 
 	___
-9.	### MNIST Digit Recognition
+10.	### MNIST Digit Recognition
 
-	<p>Classification of digits using support vector machine and gradient descent.</p>
+	Classification of digits using support vector machine and gradient descent.
 
 	[code](https://github.com/stopslavery404/Machine-Learning/tree/main/Project2/mnist/part1)
 
 	___
-10.	### Overlapping Digit Recognition
+11.	### Overlapping Digit Recognition
 
-	<p>Classification of overlapping digits which contain multiple digits in single image, where a digit is written over other digit, using Convolutional Neural Networks. </p>
+	Classification of overlapping digits which contain multiple digits in a single image, where a digit is written over another digit, using Convolutional Neural Networks.
 
 	[code](https://github.com/stopslavery404/Machine-Learning/tree/main/Project2/mnist/part2-twodigit)
 
 	___
-11.	### Collaborative Filtering via Gaussian Mixtures
+12.	### Collaborative Filtering via Gaussian Mixtures
 
-	<p>Recommender system for Netflix using Gaussian Mixtures models and EM algorithm.          Ratings of few users for different movies are provided as input and ratings for movies for which         user has not rated is calculated. It achieves very nice accuracy.</p>
+	Recommender system for Netflix using Gaussian Mixtures models and EM algorithm. Ratings of few users for different movies are provided as input and ratings for movies which the user has not rated are calculated. It achieves very nice accuracy.
 
 	[code](https://github.com/stopslavery404/Machine-Learning/tree/main/project4/resources_netflix/netflix)
 
 	___
-12.	### Text game using Reinforcement Learning
+13.	### Text game using Reinforcement Learning
 
-	<p>It is a game in which a robot is given task in a room and he learns to play it.             Implementations using Q learning, Q learning with approximations, using neural networks to reduce the exponential size Q Tables.</p>
+	It is a game in which a robot is given tasks in a room and learns to play it. Implementations using Q learning, Q learning with approximations, using neural networks to reduce the exponential size Q Tables.
 
 	[code](https://github.com/stopslavery404/Machine-Learning/tree/main/project5/rl)
 
 	___
-13.	### Maze Solver
+14.	### Maze Solver
 
-	<p>Demonstration of complexity, speed, effectiveness of different search algorithms </p>
+	Demonstration of complexity, speed, effectiveness of different search algorithms.
 
 	[code](https://github.com/stopslavery404/Artificial-Intelligence)
 
 	___
-14.	### [Degrees](https://cs50.harvard.edu/ai/2020/projects/0/degrees/)
+15.	### [Degrees](https://cs50.harvard.edu/ai/2020/projects/0/degrees/)
 
-	<p>Calculation of minimum degree of separation between actors in holywood.             Separation is in terms of working together.</p>
+	Calculation of minimum degree of separation between actors in Hollywood. Separation is in terms of working together.
 
 	[code](https://github.com/stopslavery404/Artificial-Intelligence/tree/main/degrees)
 
 	___
-15.	### [Tic-Tac-Toe AI](https://www.youtube.com/watch?v=tp9DjqV_KoU)
+16.	### [Tic-Tac-Toe AI](https://www.youtube.com/watch?v=tp9DjqV_KoU)
 
-	<p>MiniMax and Alpha-Beta pruning based undefeatable Intelligent to play against human.</p>
+	Minimax and Alpha-Beta pruning based undefeatable intelligent agent to play against human.
 
 	[code](https://github.com/stopslavery404/Artificial-Intelligence/tree/main/tictactoe)
 
 	___
-16.	### [Minesweeper AI](https://cs50.harvard.edu/ai/2020/projects/1/minesweeper/)
+17.	### [Minesweeper AI](https://cs50.harvard.edu/ai/2020/projects/1/minesweeper/)
 
-	<p>Knowledge based Intelligent agent to play Minesweeper which reasons using preposotional logic.</p>
+	Knowledge-based intelligent agent to play Minesweeper which reasons using propositional logic.
 
 	[code](https://github.com/stopslavery404/Artificial-Intelligence/tree/main/minesweeper)
 
 	___
-17.	### [CSP solver for Crossword Puzzle](https://cs50.harvard.edu/ai/2020/projects/3/crossword/)
+18.	### [CSP solver for Crossword Puzzle](https://cs50.harvard.edu/ai/2020/projects/3/crossword/)
 
-	<p>Solves Crossword puzzles by modelling it into Constraint satisfaction problem and then using         backtracking search with different heuristics to improve performance</p>
+	Solves crossword puzzles by modeling it into a Constraint Satisfaction Problem and then using backtracking search with different heuristics to improve performance.
 
 	[code](https://github.com/stopslavery404/Artificial-Intelligence/tree/main/crossword)
 
 	___
-18.	### [Pabilistic models for reasoning under uncertainity](https://cs50.harvard.edu/ai/2020/projects/2/)
+19.	### [Probabilistic models for reasoning under uncertainty](https://cs50.harvard.edu/ai/2020/projects/2/)
 
-	<p>To demonstrate page ranking and gene inheritance, by sampeling and using bayes-net</p>
+	To demonstrate page ranking and gene inheritance, by sampling and using bayes-net.
 
 	[code](https://github.com/stopslavery404/Artificial-Intelligence/tree/main/probabilistic%20models)
 
 	___
-19.	### [Shopping](https://cs50.harvard.edu/ai/2020/projects/4/shopping/)
+20.	### [Shopping](https://cs50.harvard.edu/ai/2020/projects/4/shopping/)
 
-	<p>K Nearest Neighbour model to predict whether customer will make the purchase or not.</p>
+	K Nearest Neighbour model to predict whether a customer will make the purchase or not.
 
 	[code](https://github.com/stopslavery404/Artificial-Intelligence/tree/main/shopping)
 
 	___
-20.	### [NIM](https://cs50.harvard.edu/ai/2020/projects/4/nim/)
+21.	### [NIM](https://cs50.harvard.edu/ai/2020/projects/4/nim/)
 
-	<p>Playing NIM against human. Trained using reinforcement learning.</p>
+	Playing NIM against human. Trained using reinforcement learning.
 
 	[code](https://github.com/stopslavery404/Artificial-Intelligence/tree/main/nim)
 
 	___
-21.	### [Traffic Sign classification](https://cs50.harvard.edu/ai/2020/projects/5/traffic/)
+22.	### [Traffic Sign classification](https://cs50.harvard.edu/ai/2020/projects/5/traffic/)
 
-	<p>CNN model for 43 class classification of traffic sign boards</p>
+	CNN model for 43 class classification of traffic sign boards.
 
 	[code](https://github.com/stopslavery404/Artificial-Intelligence/tree/main/traffic)
 
 	___
-22.	### [CS50 Wiki](https://mycs50wiki.herokuapp.com/)
+23.	### [CS50 Wiki](https://mycs50wiki.herokuapp.com/)
 
-	<p>Mini version of WikiPedia with almost all features of wikipedia.          Built using django, html, jinja, css, saas.</p>
-
-	___
-23.	### [HomePage](https://stopslavery404.herokuapp.com/)
-
-	<p>My Homepage which contails details about me like hobbies, interests, and many things more.          Built using flask, HTML, CSS, Javascript.         </p>
+	Mini version of Wikipedia with almost all features of Wikipedia. Built using Django, HTML, Jinja, CSS, SASS.
 
 	___
-24.	### [CS50-Finance](https://mycs50finance.herokuapp.com/)
+24.	### [HomePage](https://stopslavery404.herokuapp.com/)
 
-	<p>A lite app to get quotes of stocks and to perform buy, sell stocks.          Technologies used: Flask, SQL, APIs, JSON, Heroku, GIT.         </p>
+	My homepage which contains details about me like hobbies, interests, and many things more. Built using Flask, HTML, CSS, JavaScript.
 
 	___
+25.	### [CS50-Finance](https://mycs50finance.herokuapp.com/)
+
+	A lite app to get quotes of stocks and to perform buy, sell stocks. Technologies used: Flask, SQL, APIs, JSON, Heroku, GIT.
+
+	___
+
 
 ---
 
 ## Skills
 
 - **Programming Languages**: Python, C, C++, Java, Kotlin, JavaScript
-- **Data Analysis and Statistics**: Advanced Data Structures, Algorithms, Probabilistic Modeling, Inference, Estimation, Hypothesis Testing,, Prediction, Data Analysis
+- **Data Analysis and Statistics**: Advanced Data Structures, Algorithms, Probabilistic Modeling, Inference, Estimation, Hypothesis Testing, Prediction, Data Analysis
 - **Artificial Intelligence**: Search, Optimization, Reinforcement Learning, Bayes-Net, Knowledge-Based Agents
 - **Machine Learning**: Regression, Classification, Clustering, Recommendation, Collaborative Filtering, Non-Parametric Models
 - **Tools and Libraries**: TensorFlow, PyTorch, Keras, Scikit-Learn, Seaborn, Matplotlib, OpenCV
-- **Computer Vision**: Object Detection, Image Segmentation, Geometric Transformations, Synthetic Dataset Geneation, Object Tracking
+- **Computer Vision**: Object Detection, Image Segmentation, Geometric Transformations, Synthetic Dataset Generation, Object Tracking
 - **Android Development**: Java, Kotlin, ML model porting, Services, Fragments, Rest APIs, Sensor Access, Python Script on Android
-- **Web Development**: JavaScript, Flask, Django, HTML, SAAS, CSS, Bootstrap, SQL, MVC, Git
+- **Web Development**: JavaScript, Flask, Django, HTML, SASS, CSS, Bootstrap, SQL, MVC, Git
 - **IOT**: Arduino, Sensors, Wireless Control
 
 
@@ -335,10 +346,10 @@ Working with AI problems related to computer vision and sensor data. The main pr
 - **Phone** [+91-8709253658](tel:+91-8709253658)
 - **Mail** [work.rahul126@gmail.com](mailto:work.rahul126@gmail.com)
 - **LinkedIn** [@rahul126](https://www.linkedin.com/in/rahul126)
-- **Website** [https://github.com/pctablet505/portfolio](https://github.com/pctablet505/portfolio)
+- **Website** [https://github.com/stopslavery404/portfolio](https://github.com/stopslavery404/portfolio)
 - **Hackerrank** [@stopslavery404](https://www.hackerrank.com/stopslavery404)
 - **GitHub** [@stopslavery404](https://www.github.com/stopslavery404)
-- **Instagram** [@hellorahul.me](https://www.instagram.com/hellorahul.me)
+- **Instagram** [@hello._world_.me](https://www.instagram.com/hello._world_.me)
 - **Youtube** [YouTube](https://www.youtube.com/channel/UCnRPtPB_CXs1ngGlwKqP-yw)
 
 
