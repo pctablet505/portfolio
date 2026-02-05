@@ -19,8 +19,8 @@
     },
     {
         "method": "Website",
-        "disp": "https://github.com/stopslavery404/portfolio",
-        "url": "https://github.com/stopslavery404/portfolio",
+        "disp": "https://github.com/pctablet505/portfolio",
+        "url": "https://github.com/pctablet505/portfolio",
         "icon": "fa fa-home"
     },
     {
@@ -31,13 +31,13 @@
     },
     {
         "method": "GitHub",
-        "disp": "@stopslavery404",
-        "url": "https://www.github.com/stopslavery404",
+        "disp": "@pctablet505",
+        "url": "https://www.github.com/pctablet505",
         "icon": "fa fa-github"
     },
     {
         "method": "Instagram",
-        "disp": "@hello._world_.me",
+        "disp": "@hellorahul.me",
         "url": "https://www.instagram.com/hello._world_.me",
         "icon": "fa fa-instagram"
     },
