@@ -349,7 +349,7 @@ Working with AI problems related to computer vision,and sensor data. The main pr
 - **Website** [https://github.com/pctablet505/portfolio](https://github.com/pctablet505/portfolio)
 - **Hackerrank** [@stopslavery404](https://www.hackerrank.com/stopslavery404)
 - **GitHub** [@pctablet505](https://www.github.com/pctablet505)
-- **Instagram** [@hellorahul.me](https://www.instagram.com/hello._world_.me)
+- **Instagram** [@hellorahul.me](https://www.instagram.com/hellorahul.me)
 - **Youtube** [YouTube](https://www.youtube.com/channel/UCnRPtPB_CXs1ngGlwKqP-yw)
 
 
