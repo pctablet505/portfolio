@@ -8,7 +8,7 @@ Created on Sun Mar 24 13:23:22 2024
 import json
 import os
 import sys
-homedir = r'C:\projects\Google\portfolio\homepage'
+homedir = '/tmp/portfolio/homepage'
 
 
 def get_paragraph(string):

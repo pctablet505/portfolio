@@ -5,7 +5,7 @@
         "website": "https://www.google.com/",
         "duration": "Feb 2025-Present",
         "position": "Software Engineer (Machine Learning)",
-        "description": "Working with Keras Team"
+        "description": "Working with Keras Team on deep learning framework development, LiteRT model export, and cross-backend portability (TensorFlow, PyTorch, JAX). Contributing to production-grade ML infrastructure used by millions of developers."
     },
     {
         "company": "Qualcomm",
@@ -19,7 +19,7 @@
         "company": "Samsung R&D Institute India",
         "location": "Noida, India",
         "website": "https://research.samsung.com/sri-n",
-        "duration": "July 2022-Present",
+        "duration": "July 2022-Sept 2024",
         "position": "Research & Development Engineer",
         "description": "Worked with different AI problems, mostly with computer vision and sensor data. Developed end-to-end solutions, include complete android app, web server and on-device AI."
     },

@@ -4,32 +4,36 @@
         "details": ["Python", "C", "C++", "Java", "Kotlin", "JavaScript"]
     },
     {
+        "title": "Deep Learning Frameworks",
+        "details": ["Keras", "TensorFlow", "PyTorch", "JAX", "LiteRT", "TFLite"]
+    },
+    {
+        "title": "Machine Learning",
+        "details": ["Regression", "Classification", "Clustering", "Recommendation", "Collaborative Filtering", "Reinforcement Learning", "Generative AI"]
+    },
+    {
+        "title": "Computer Vision",
+        "details": ["Object Detection", "Image Segmentation", "Face Recognition", "Synthetic Dataset Generation", "Geometric Transformations", "Shadow Removal"]
+    },
+    {
+        "title": "Edge AI & On-Device ML",
+        "details": ["Model Quantization", "LiteRT Export", "DSP Optimization", "Android NNAPI", "GPU Delegation", "NPU Inference"]
+    },
+    {
         "title": "Data Analysis and Statistics",
         "details": ["Advanced Data Structures", "Algorithms", "Probabilistic Modeling", "Inference", "Estimation", "Hypothesis Testing", "Prediction", "Data Analysis"]
     },
     {
-        "title": "Artificial Intelligence",
-        "details": ["Search", "Optimization", "Reinforcement Learning", "Bayes-Net", "Knowledge-Based Agents"]
-    },
-    {
-        "title": "Machine Learning",
-        "details": ["Regression", "Classification", "Clustering", "Recommendation", "Collaborative Filtering", "Non-Parametric Models"]
-    },
-    {
         "title": "Tools and Libraries",
-        "details": ["TensorFlow", "PyTorch", "Keras", "Scikit-Learn", "Seaborn", "Matplotlib", "OpenCV"]
-    },
-    {
-        "title": "Computer Vision",
-        "details": ["Object Detection", "Image Segmentation", "Geometric Transformations", "Synthetic Dataset Generation", "Object Tracking"]
+        "details": ["NumPy", "OpenCV", "Scikit-Learn", "Pandas", "Seaborn", "Matplotlib", "Playwright", "Selenium"]
     },
     {
         "title": "Android Development",
-        "details": ["Java", "Kotlin", "ML model porting", "Services", "Fragments", "Rest APIs", "Sensor Access", "Python Script on Android"]
+        "details": ["Java", "Kotlin", "ML model porting", "Services", "Fragments", "Rest APIs", "Sensor Access", "Camera2 API"]
     },
     {
         "title": "Web Development",
-        "details": ["JavaScript", "Flask", "Django", "HTML", "SASS", "CSS", "Bootstrap", "SQL", "MVC", "Git"]
+        "details": ["Flask", "Django", "HTML", "SASS", "CSS", "Bootstrap", "SQL", "MVC", "Git"]
     },
     {
         "title": "IOT",
