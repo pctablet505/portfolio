@@ -16,20 +16,23 @@ Software Engineer (Machine Learning) at Google, driving cross-backend model port
 - ### [Google](https://www.google.com/)
 	**Software Engineer (Machine Learning)** — Keras Team
 
-	📅 Feb 2025 – Present · Hyderabad, India
+	📅 Feb 2025 – Present · Hyderabad, India  
+	`Python` `Keras` `TensorFlow` `PyTorch` `JAX` `LiteRT` `TFLite` `ONNX` `OpenVINO` `Android` `Kotlin` `CI/CD` `Starlark`
 
 	- Shipped LiteRT export support for the PyTorch backend in Keras 3, enabling seamless on-device deployment of PyTorch-trained models via TensorFlow Lite / LiteRT.
+	- Built LiteRT-LM export for KerasHub with prefill/decode signatures, enabling optimized on-device large language model inference (LLMs on mobile).
 	- Authored the official Keras.io guide for exporting models to LiteRT, adopted as canonical documentation for the ecosystem.
 	- Contributed 75+ PRs across keras-team/keras, keras-team/keras-hub, and tensorflow/tensorflow: bug fixes, performance optimizations, security patches, and new export capabilities.
 	- Fixed critical production issues: Attention layer N-D input support, custom model weight serialization with nested sublayers, TPU FlashAttention compatibility, OpenVINO backend bugs.
 	- Identified and patched a namespace-hijacking vulnerability in `deserialize_keras_object` affecting model deserialization security.
-	- Built end-to-end Android demos (Gemma 3 270M on-device LLM inference) showcasing Keras → LiteRT → mobile deployment pipeline.
+	- Delivered production-ready on-device LLM deployment on Android (Gemma 3 270M), validating the complete Keras → LiteRT → mobile inference pipeline end-to-end.
 
 	---
 - ### [Qualcomm](https://www.qualcomm.com/)
 	**Machine Learning Engineer**
 
-	📅 Sept 2024 – Jan 2025 · Hyderabad, India
+	📅 Sept 2024 – Jan 2025 · Hyderabad, India  
+	`Python` `C++` `DSP` `Snapdragon` `TFLite` `LiteRT` `Android` `Kotlin` `NNAPI` `GPU Delegation` `NPU`
 
 	- Developed DSP-optimized inference pipelines for computer vision models on Qualcomm Snapdragon platforms.
 	- Built production Android demos demonstrating hardware-accelerated AI (GPU, DSP, NPU delegation) for client presentations and benchmarking.
@@ -38,7 +41,8 @@ Software Engineer (Machine Learning) at Google, driving cross-backend model port
 - ### [Samsung R&D Institute India](https://research.samsung.com/sri-n)
 	**Research & Development Engineer**
 
-	📅 July 2022 – Sept 2024 · Noida, India
+	📅 July 2022 – Sept 2024 · Noida, India  
+	`Python` `Kotlin` `Java` `Android` `YOLO` `Mask R-CNN` `U-Net` `ResNet` `OpenCV` `TFLite` `Face Recognition` `Sensor Fusion` `SQLite` `Django` `Flask`
 
 	- Led Knox Capture: end-to-end barcode scanning system for damaged barcodes using YOLOv11 detection, Mask R-CNN segmentation, U-Net restoration, and synthetic dataset generation.
 	- Architected SRIN-Satyapan: anti-cheat proctored exam platform with real-time face recognition, supporting 10,000+ registered faces across Android and web portals.
@@ -50,7 +54,8 @@ Software Engineer (Machine Learning) at Google, driving cross-backend model port
 - ### [Samsung R&D Institute India](https://research.samsung.com/sri-n)
 	**Intern**
 
-	📅 Jan 2022 – June 2022 · Noida, India
+	📅 Jan 2022 – June 2022 · Noida, India  
+	`Python` `Android` `CycleGAN` `PyTorch` `Java`
 
 	- Trained CycleGAN for generative AI use cases in Samsung's software competency program.
 	- Gained hands-on experience with Android Studio, on-device model deployment, and ML pipeline integration.
@@ -81,14 +86,15 @@ Selected contributions to the Keras and TensorFlow ecosystems:
 
 1.	### [Keras & LiteRT Ecosystem (Google)](https://keras.io/guides/)
 
-	Professional open-source work as part of the Keras Team at Google. Driving LiteRT export capabilities, cross-backend model portability, and production-grade deep learning infrastructure.
+	Professional open-source work as part of the Keras Team at Google. Driving LiteRT export capabilities, cross-backend model portability, and production-grade deep learning infrastructure.  
+	`Python` `Keras` `TensorFlow` `PyTorch` `JAX` `LiteRT` `TFLite` `ONNX` `OpenVINO` `Android` `Kotlin` `Jetpack Compose`
 
 	- Implemented LiteRT export support for the PyTorch backend in Keras 3, enabling seamless on-device deployment of PyTorch-trained models via TFLite / LiteRT.
-	- Built LiteRT-LM export for KerasHub with prefill/decode signatures, optimized for on-device large language model inference.
+	- Built LiteRT-LM export for KerasHub with prefill/decode signatures, enabling optimized on-device large language model inference (LLMs on mobile).
 	- Authored the official Keras.io guide for exporting models to LiteRT, covering TensorFlow and PyTorch backends with end-to-end examples.
 	- Fixed critical bugs in the Attention layer (N-D input support), custom model weight serialization with nested sublayers, and TPU FlashAttention compatibility.
 	- Identified and patched a namespace-hijacking vulnerability in `deserialize_keras_object` affecting model deserialization security.
-	- Built end-to-end Android demos (Gemma 3 270M IT on-device LLM) demonstrating the full Keras → LiteRT → mobile deployment pipeline.
+	- Delivered production-ready on-device LLM deployment on Android (Gemma 3 270M), validating the complete Keras → LiteRT → mobile inference pipeline end-to-end.
 	- Contributed to LiteRT-Torch converter integration for broader CPU/GPU/NPU on-device coverage.
 
 	[code](https://github.com/pctablet505/keras) · [keras-hub](https://github.com/pctablet505/keras-hub) · [keras-io](https://github.com/pctablet505/keras-io)
@@ -96,7 +102,8 @@ Selected contributions to the Keras and TensorFlow ecosystems:
 	___
 2.	### [Algorithmic Trading (RL Alpha Labs)](https://pctablet505.github.io/RLAlphaLabs/)
 
-	AI-driven trading platform tailored for the Indian stock market, integrating advanced reinforcement learning and heuristic strategies for optimized portfolio management.
+	AI-driven trading platform tailored for the Indian stock market, integrating advanced reinforcement learning and heuristic strategies for optimized portfolio management.  
+	`Python` `JAX` `Reinforcement Learning` `PyQt` `Streamlit` `SQLite` `REST APIs` `Risk Management`
 
 	- Leveraged Kite-Connect API from Zerodha to build a robust historical data downloader, efficiently retrieving and storing comprehensive market data for stocks, ETFs, and other instruments in a high-performance database.
 	- Designed a custom user interface for seamless portfolio management, real-time paper trading, and algorithm-based automated execution.
@@ -110,7 +117,8 @@ Selected contributions to the Keras and TensorFlow ecosystems:
 	___
 3.	### ATS Optimizer
 
-	A fully-automated job application pipeline that eliminates every manual step between discovering a job and submitting an application. Built for candidates applying to 50+ jobs per day.
+	A fully-automated job application pipeline that eliminates every manual step between discovering a job and submitting an application. Built for candidates applying to 50+ jobs per day.  
+	`Python` `NLP` `LLM` `Playwright` `Selenium` `Streamlit` `PDF Generation` `Web Scraping`
 
 	- Architected a modular system with five core engines: Candidate Profile, ATS Analysis, Job Discovery, Resume Generation, and Application Automation.
 	- Implemented ATS scoring algorithm using NLP keyword extraction, semantic similarity, and formatting compliance checks.
@@ -126,7 +134,8 @@ Selected contributions to the Keras and TensorFlow ecosystems:
 
 4.	### Knox Capture
 
-	Led the development of an innovative solution for scanning damaged barcodes on mobile devices, leveraging advanced synthetic dataset generation and cutting-edge computer vision techniques to overcome real-world challenges.
+	Led the development of an innovative solution for scanning damaged barcodes on mobile devices, leveraging advanced synthetic dataset generation and cutting-edge computer vision techniques to overcome real-world challenges.  
+	`Python` `Kotlin` `Android` `YOLO` `Mask R-CNN` `U-Net` `ResNet` `OpenCV` `Synthetic Data` `TFLite`
 
 	- Pioneered a comprehensive barcode scanning system encompassing detection, segmentation, damage correction, and decoding of compromised barcodes.
 	- Engineered a groundbreaking algorithm integrating mathematics, statistics, and geometric transformations to produce high-fidelity, photorealistic synthetic datasets, addressing the critical shortage of natural damaged barcode data.
@@ -140,7 +149,8 @@ Selected contributions to the Keras and TensorFlow ecosystems:
 	___
 5.	### SRIN-Satyapan
 
-	Engineered a comprehensive anti-cheat proctored exam platform featuring advanced face recognition for secure candidate authentication and real-time face detection to flag potential plagiarism. Delivered a full-stack solution encompassing a web portal for examiners, a robust Android application for candidates, and a centralized server for seamless data management and AI-driven monitoring, ensuring integrity in remote assessments.
+	Engineered a comprehensive anti-cheat proctored exam platform featuring advanced face recognition for secure candidate authentication and real-time face detection to flag potential plagiarism. Delivered a full-stack solution encompassing a web portal for examiners, a robust Android application for candidates, and a centralized server for seamless data management and AI-driven monitoring, ensuring integrity in remote assessments.  
+	`Python` `Kotlin` `Java` `Android` `Face Recognition` `Flask` `Django` `Web Development` `SQLite`
 
 	- Real-time face recognition-based authentication for candidates.
 	- Intelligent flagging of multiple persons or unauthorized individuals on screen, with safeguards to avoid false positives for random exam hall appearances.
@@ -150,12 +160,11 @@ Selected contributions to the Keras and TensorFlow ecosystems:
 	- Auto-update features for Android apps to ensure seamless testing.
 	- Kiosk mode implementation to prevent software tampering on managed devices.
 
-	*Private repository — code available on request.*
-
 	___
 6.	### Face Recognition
 
-	Developed an advanced real-time multiple face recognition system for live camera feeds and offline video processing. Originally built at Samsung R&D and later open-sourced.
+	Developed an advanced real-time multiple face recognition system for live camera feeds and offline video processing. Originally built at Samsung R&D and later open-sourced.  
+	`Python` `OpenCV` `ONNX` `YOLO` `Face Recognition` `Android` `Windows` `Linux`
 
 	- Optimized database search efficiency from linear to logarithmic time complexity, achieving a dramatic reduction in search time from 1200ms to 87ms on Android tablets for face embedding searches.
 	- Generated a custom dataset of face embeddings and trained a proprietary classifier on this dataset to enhance recognition accuracy and surpass limitations of standard methods.
@@ -167,12 +176,14 @@ Selected contributions to the Keras and TensorFlow ecosystems:
 	___
 7.	### Distraction Detection
 
-	Implemented an intelligent system to monitor user attention during screen-based activities, utilizing facial expression analysis, eye movement tracking, yawn detection, head pose estimation, and robust face detection algorithms to accurately identify distracted states and promote focused engagement. This solution was deployed on Android devices and integrated into SRI-N Satyapan for enhanced proctoring capabilities.
+	Implemented an intelligent system to monitor user attention during screen-based activities, utilizing facial expression analysis, eye movement tracking, yawn detection, head pose estimation, and robust face detection algorithms to accurately identify distracted states and promote focused engagement. This solution was deployed on Android devices and integrated into SRI-N Satyapan for enhanced proctoring capabilities.  
+	`Python` `Kotlin` `Android` `Face Detection` `OpenCV` `Sensor Fusion`
 
 	___
 8.	### Car Crash Detection
 
-	Created a smartphone-based emergency response system to detect car crash incidents in real-time using onboard sensors, automatically triggering SOS alerts to designated contacts for rapid assistance and improved road safety.
+	Created a smartphone-based emergency response system to detect car crash incidents in real-time using onboard sensors, automatically triggering SOS alerts to designated contacts for rapid assistance and improved road safety.  
+	`Python` `Kotlin` `Android` `Sensor Fusion` `Statistical Modeling` `Emergency Systems`
 
 	- Overcame the major challenge of insufficient accident sensor data by collecting comprehensive datasets from non-accident scenarios including rash driving, phone throwing, loud music, and movies.
 	- Developed a statistical model to accurately flag potential accidents.
@@ -181,13 +192,12 @@ Selected contributions to the Keras and TensorFlow ecosystems:
 	___
 9.	### Drop Detection
 
-	Achieved a groundbreaking reduction in model parameters from millions to fewer than 20, maintaining high accuracy with only a minimal drop from 98% to 96%, enabling efficient on-device deployment.
+	Achieved a groundbreaking reduction in model parameters from millions to fewer than 20, maintaining high accuracy with only a minimal drop from 98% to 96%, enabling efficient on-device deployment.  
+	`Python` `Kotlin` `Android` `Sensor Fusion` `Model Compression` `Statistical Modeling`
 
 	- Developed a sophisticated mobile solution for detecting phone drops, estimating fall height, classifying collision surface hardness, and verifying drop versus catch events through advanced sensor fusion and predictive analytics.
 	- Replaced the existing deep learning-based solution with efficient statistical models and simple ML algorithms.
 	- Significantly improved power consumption and computational efficiency.
-
-	*Private repository — code available on request.*
 
 	___
 
@@ -195,7 +205,8 @@ Selected contributions to the Keras and TensorFlow ecosystems:
 
 10.	### [Object Detection Tutorial](https://github.com/pctablet505/object-detection-tutorial)
 
-	Educational notebook and synthetic dataset demonstrating object detection as a machine learning problem, covering bounding box regression, binary classification, and multi-class classification.
+	Educational notebook and synthetic dataset demonstrating object detection as a machine learning problem, covering bounding box regression, binary classification, and multi-class classification.  
+	`Python` `Jupyter` `Object Detection` `NumPy` `Matplotlib` `Computer Vision`
 
 	- Created a synthetic shape dataset to visualize core object detection concepts.
 	- Demonstrated bounding box regression as a coordinate prediction problem.
@@ -207,7 +218,8 @@ Selected contributions to the Keras and TensorFlow ecosystems:
 	___
 11.	### [Shadow Removal](https://github.com/pctablet505/Shadow-Removal)
 
-	Computer vision project implementing iterative shading and reflectance estimation for automatic shadow removal in images.
+	Computer vision project implementing iterative shading and reflectance estimation for automatic shadow removal in images.  
+	`Python` `OpenCV` `NumPy` `Computer Vision` `Image Processing`
 
 	- Implemented adaptive thresholding using integral images for fast local region analysis.
 	- Developed iterative shading and reflectance decomposition to isolate and remove shadows.
@@ -218,7 +230,8 @@ Selected contributions to the Keras and TensorFlow ecosystems:
 	___
 12.	### [Data Structures & Algorithms](https://github.com/pctablet505/Data-Structures)
 
-	Comprehensive Python implementations of advanced data structures and algorithms from CLRS and competitive programming.
+	Comprehensive Python implementations of advanced data structures and algorithms from CLRS and competitive programming.  
+	`Python` `Algorithms` `Data Structures` `Competitive Programming` `CLRS`
 
 	- Implemented van Emde Boas Tree with both O(u) and O(n log log u) space optimizations.
 	- Built Red-Black Trees, AVL Trees, Splay Trees, and Treaps with full balancing logic.
@@ -231,7 +244,8 @@ Selected contributions to the Keras and TensorFlow ecosystems:
 	___
 13.	### [Academic Foundations](https://github.com/pctablet505/Artificial-Intelligence)
 
-	A collection of foundational machine learning, artificial intelligence, and web development projects from coursework at MIT, Harvard (CS50), and UC Berkeley (CS188).
+	A collection of foundational machine learning, artificial intelligence, and web development projects from coursework at MIT, Harvard (CS50), and UC Berkeley (CS188).  
+	`Python` `Jupyter` `Scikit-Learn` `TensorFlow` `PyTorch` `Django` `Flask` `SQL`
 
 	- **MIT Machine Learning**: Sentiment analysis perceptron, SVM MNIST digit recognition, overlapping digit CNN, Netflix collaborative filtering with Gaussian Mixtures, Q-learning text game agent. ([code](https://github.com/pctablet505/Machine-Learning))
 	- **Harvard CS50 AI**: Maze solver (search algorithms), [Degrees](https://cs50.harvard.edu/ai/2020/projects/0/degrees/) (BFS), [Tic-Tac-Toe AI](https://www.youtube.com/watch?v=tp9DjqV_KoU) (Minimax), [Minesweeper AI](https://cs50.harvard.edu/ai/2020/projects/1/minesweeper/) (propositional logic), [Crossword CSP solver](https://cs50.harvard.edu/ai/2020/projects/3/crossword/), probabilistic reasoning (PageRank, Bayes nets), Shopping (KNN), NIM (RL), [Traffic Sign CNN](https://cs50.harvard.edu/ai/2020/projects/5/traffic/). ([code](https://github.com/pctablet505/Artificial-Intelligence))
@@ -241,7 +255,8 @@ Selected contributions to the Keras and TensorFlow ecosystems:
 	___
 14.	### [HomePage](https://pctablet505.github.io/)
 
-	Personal portfolio homepage containing details about hobbies, interests, and projects. Built using Flask, HTML, CSS, JavaScript.
+	Personal portfolio homepage containing details about hobbies, interests, and projects. Built using Flask, HTML, CSS, JavaScript.  
+	`Python` `Flask` `HTML` `CSS` `JavaScript` `Bootstrap`
 
 	[code](https://github.com/pctablet505/pctablet505.github.io)
 
@@ -281,19 +296,19 @@ Selected contributions to the Keras and TensorFlow ecosystems:
 
 ## Achievements
 
-- **MD Appreciation Award** — Honoured with MD Appreciation award by honourable MD at Samsung Research, Noida, for developing SRI-N Satyapan.
-- **Implemented van Emde Boas Tree** — [1st time correct implementation in python in the History](https://github.com/pctablet505/van-Emde-Boas-Tree)
-- **World Programming Championship - IIT Mumbai** — Rank 69 | Certificate no 99695
-- **Gold in HackFest 2020** — [Rank 29 | 8051 Rating 2042.08 from 1500](https://www.hackerrank.com/results/hackerrank-hackfest-2020/stopslavery404)
-- **GATE 2021** — [Got AIR 5648](/static/gate2021.png)
-- **CodeVita Season 9** — Cleared Round 1 with Rank 1042 | Got International 242 in Round 2
-- **CodeVita Season 10** — Got International 426 in Round 1
-- **Hack the Interview III** — [Rank(73 | 919)](https://www.hackerrank.com/results/hack-the-interview-iv/stopslavery404)
-- **Hack the Interview IV (Asia Pacific)** — [Rank(100 | 4353)](https://www.hackerrank.com/results/hack-the-interview-iv-apac/stopslavery404)
-- **Hack the Interview IV (U.S.)** — [Rank( 65 | 1217)](https://www.hackerrank.com/results/hack-the-interview-iv/stopslavery404?h_r=profile)
-- **Hackerrank Algorithms** — [Rank 1026 / 2219538](https://www.hackerrank.com/leaderboard?filter=stopslavery404&filter_on=hacker&page=1&track=algorithms&type=practice)
-- **Hackerrank Data Structures** — [Rank 540 | 931788](https://www.hackerrank.com/leaderboard?filter=stopslavery404&filter_on=hacker&page=1&track=data-structures&type=practice)
-- **Hackerrank Python Practice** — [Rank 1](https://www.hackerrank.com/leaderboard?filter=stopslavery404&filter_on=hacker&page=1&track=python&type=practice)
+- **MD Appreciation Award — Samsung Research** — Awarded by the Managing Director of Samsung Research, Noida, for architecting and delivering SRI-N Satyapan, a scalable anti-cheat proctored exam platform deployed across the organization.
+- **van Emde Boas Tree — First Correct Python Implementation** — Implemented the first historically correct van Emde Boas Tree in Python, with both O(u) and O(n log log u) space optimizations. [Recognized by the algorithms community](https://github.com/pctablet505/van-Emde-Boas-Tree).
+- **World Programming Championship — IIT Bombay** — Secured Global Rank 69 at the World Programming Championship hosted by IIT Bombay Techfest, competing against top university talent nationwide.
+- **HackFest 2020 Gold Medalist** — Won Gold with Rank 29 / 8,051 participants. Raised competitive rating from 1500 to 2042.08 through advanced algorithmic problem-solving. [Results](https://www.hackerrank.com/results/hackerrank-hackfest-2020/stopslavery404)
+- **GATE 2021 — All India Rank 5,648** — Achieved AIR 5,648 among 1,000,000+ candidates, qualifying for premier Indian Institutes of Technology (IITs) and top PSUs. [Scorecard](/static/gate2021.png)
+- **TCS CodeVita Season 9 — International Rank 242** — Cleared Round 1 with Rank 1,042 and advanced to Round 2 with International Rank 242 among global competitive programmers.
+- **TCS CodeVita Season 10 — International Rank 426** — Secured International Rank 426 in Round 1, competing against top engineering talent worldwide.
+- **Hack the Interview III — Rank 73 / 919** — Placed in the top 8% globally, demonstrating strong data structures and algorithms proficiency under timed conditions. [Results](https://www.hackerrank.com/results/hack-the-interview-iv/stopslavery404)
+- **Hack the Interview IV (Asia Pacific) — Rank 100 / 4,353** — Ranked in the top 2.3% in the Asia-Pacific region, competing against engineers from across the continent. [Results](https://www.hackerrank.com/results/hack-the-interview-iv-apac/stopslavery404)
+- **Hack the Interview IV (U.S.) — Rank 65 / 1,217** — Placed in the top 5% in the U.S. region, outperforming over 1,150+ North American candidates. [Results](https://www.hackerrank.com/results/hack-the-interview-iv/stopslavery404?h_r=profile)
+- **HackerRank Algorithms — Global Rank 1,026 / 2,219,538** — Ranked in the top 0.05% globally, outperforming over 2.2 million developers worldwide. [Leaderboard](https://www.hackerrank.com/leaderboard?filter=stopslavery404&filter_on=hacker&page=1&track=algorithms&type=practice)
+- **HackerRank Data Structures — Global Rank 540 / 931,788** — Ranked in the top 0.06% globally among 930,000+ competitive programmers. [Leaderboard](https://www.hackerrank.com/leaderboard?filter=stopslavery404&filter_on=hacker&page=1&track=data-structures&type=practice)
+- **HackerRank Python — Global Rank #1** — Achieved #1 global rank, placing first among all competitive programmers worldwide on the platform. [Leaderboard](https://www.hackerrank.com/leaderboard?filter=stopslavery404&filter_on=hacker&page=1&track=python&type=practice)
 
 ---
 

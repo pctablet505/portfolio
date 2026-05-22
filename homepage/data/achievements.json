@@ -1,72 +1,67 @@
 [
     {
-        "achievement": "MD Appreciation Award",
-        "description": "Honoured with MD Appreciation award by honourable MD at Samsung Research, Noida, for developing SRI-N Satyapan.",
+        "achievement": "MD Appreciation Award — Samsung Research",
+        "description": "Awarded by the Managing Director of Samsung Research, Noida, for architecting and delivering SRI-N Satyapan, a scalable anti-cheat proctored exam platform deployed across the organization.",
         "link": ""
     },
     {
-        "achievement": "Implemented van Emde Boas Tree",
-        "description": "1st time correct implementation in python in the History",
+        "achievement": "van Emde Boas Tree — First Correct Python Implementation",
+        "description": "Implemented the first historically correct van Emde Boas Tree in Python, with both O(u) and O(n log log u) space optimizations. Recognized by the competitive programming and algorithms community.",
         "link": "https://github.com/pctablet505/van-Emde-Boas-Tree"
     },
     {
-        "achievement": "World Programming Championship - IIT Mumbai",
-        "description": "Rank 69 | Certificate no 99695",
+        "achievement": "World Programming Championship — IIT Bombay",
+        "description": "Secured Global Rank 69 at the World Programming Championship hosted by IIT Bombay Techfest, competing against top university talent nationwide.",
         "link": ""
     },
     {
-        "achievement": "Gold in HackFest 2020",
-        "description": "Rank 29 | 8051  Rating 2042.08 from 1500",
+        "achievement": "HackFest 2020 Gold Medalist",
+        "description": "Won Gold at HackFest 2020 with Rank 29 / 8,051 participants. Raised competitive rating from 1500 to 2042.08 through advanced algorithmic problem-solving.",
         "link": "https://www.hackerrank.com/results/hackerrank-hackfest-2020/stopslavery404"
     },
     {
-        "achievement": "GATE 2021",
-        "description": "Got AIR 5648",
+        "achievement": "GATE 2021 — All India Rank 5,648",
+        "description": "Achieved AIR 5,648 in GATE 2021 among 1,000,000+ candidates, qualifying for premier Indian Institutes of Technology (IITs) and top PSUs.",
         "link": "/static/gate2021.png"
     },
     {
-        "achievement": "CodeVita Season 9",
-        "description": "Cleared Round 1 with Rank 1042",
+        "achievement": "TCS CodeVita Season 9 — International Rank 242",
+        "description": "Cleared Round 1 with Rank 1,042 and advanced to Round 2 with International Rank 242 among global competitive programmers.",
         "link": ""
     },
     {
-        "achievement": "CodeVita Season 9",
-        "description": "Got International 242 in Round 2",
+        "achievement": "TCS CodeVita Season 10 — International Rank 426",
+        "description": "Secured International Rank 426 in Round 1 of CodeVita Season 10, competing against top engineering talent worldwide.",
         "link": ""
     },
     {
-        "achievement": "CodeVita Season 10",
-        "description": "Got International 426 in Round 1",
-        "link": ""
-    },
-    {
-        "achievement": "Hack the Interview III",
-        "description": "Rank(73 | 919)",
+        "achievement": "Hack the Interview III — Rank 73 / 919",
+        "description": "Placed in the top 8% globally at Hack the Interview III, demonstrating strong data structures and algorithms proficiency under timed conditions.",
         "link": "https://www.hackerrank.com/results/hack-the-interview-iv/stopslavery404"
     },
     {
-        "achievement": "Hack the Interview IV (Asia Pacific)",
-        "description": "Rank(100 | 4353)",
+        "achievement": "Hack the Interview IV (Asia Pacific) — Rank 100 / 4,353",
+        "description": "Ranked in the top 2.3% in the Asia-Pacific region at Hack the Interview IV, competing against engineers from across the continent.",
         "link": "https://www.hackerrank.com/results/hack-the-interview-iv-apac/stopslavery404"
     },
     {
-        "achievement": "Hack the Interview IV (U.S.) ",
-        "description": "Rank( 65 | 1217) ",
+        "achievement": "Hack the Interview IV (U.S.) — Rank 65 / 1,217",
+        "description": "Placed in the top 5% in the U.S. region at Hack the Interview IV, outperforming over 1,150+ North American candidates.",
         "link": "https://www.hackerrank.com/results/hack-the-interview-iv/stopslavery404?h_r=profile"
     },
     {
-        "achievement": "Hackerrank Algorithms",
-        "description": "Rank 1026/ 2219538",
+        "achievement": "HackerRank Algorithms — Global Rank 1,026 / 2,219,538",
+        "description": "Ranked in the top 0.05% globally in HackerRank Algorithms, outperforming over 2.2 million developers worldwide.",
         "link": "https://www.hackerrank.com/leaderboard?filter=stopslavery404&filter_on=hacker&page=1&track=algorithms&type=practice"
     },
     {
-        "achievement": "Hackerrank Data Structures ",
-        "description": "Rank 540| 931788",
+        "achievement": "HackerRank Data Structures — Global Rank 540 / 931,788",
+        "description": "Ranked in the top 0.06% globally in HackerRank Data Structures among 930,000+ competitive programmers.",
         "link": "https://www.hackerrank.com/leaderboard?filter=stopslavery404&filter_on=hacker&page=1&track=data-structures&type=practice"
     },
     {
-        "achievement": "Hackerrank Python Practice",
-        "description": "Rank 1",
+        "achievement": "HackerRank Python — Global Rank #1",
+        "description": "Achieved #1 global rank in HackerRank Python, placing first among all competitive programmers worldwide on the platform.",
         "link": "https://www.hackerrank.com/leaderboard?filter=stopslavery404&filter_on=hacker&page=1&track=python&type=practice"
     }
 ]

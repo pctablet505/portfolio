@@ -1,14 +1,16 @@
 [
     {
         "title": "Keras & LiteRT Ecosystem (Google)",
-        "description": "Professional open-source work as part of the Keras Team at Google. Driving LiteRT (TensorFlow Lite Runtime) export capabilities, cross-backend model portability, and production-grade deep learning infrastructure used by millions of developers.",
+        "description": "Professional open-source work as part of the Keras Team at Google. Driving LiteRT (TensorFlow Lite Runtime) export capabilities, cross-backend model portability, and production-grade deep learning infrastructure.",
+        "skills": ["Python", "Keras", "TensorFlow", "PyTorch", "JAX", "LiteRT", "TFLite", "ONNX", "OpenVINO", "Android", "Kotlin", "Jetpack Compose"],
         "bullets": [
-            "Implemented LiteRT export support for the PyTorch backend in Keras 3, enabling seamless on-device deployment of PyTorch-trained models via TFLite / LiteRT.",
-            "Built LiteRT-LM export for KerasHub with prefill/decode signatures, optimized for on-device large language model inference.",
+            "Implemented LiteRT export support for the PyTorch backend in Keras 3, enabling seamless on-device deployment of PyTorch-trained models via TensorFlow Lite / LiteRT.",
+            "Built LiteRT-LM export for KerasHub with prefill/decode signatures, enabling optimized on-device large language model inference (LLMs on mobile).",
+            "Maintained cross-backend compatibility across TensorFlow, PyTorch, and JAX in Keras 3: resolved breaking changes, backported SavedModel export workarounds, and ensured compatibility across TF 2.20, Python 3.13, and Orbax checkpointing.",
             "Authored the official Keras.io guide for exporting models to LiteRT, covering TensorFlow and PyTorch backends with end-to-end examples.",
-            "Fixed critical bugs in the Attention layer (N-D input support), custom model weight serialization with nested sublayers, and TPU FlashAttention compatibility.",
-            "Identified and patched a namespace-hijacking vulnerability in deserialize_keras_object affecting model deserialization security.",
-            "Built end-to-end Android demos (Gemma 3 270M IT on-device LLM) demonstrating the full Keras → LiteRT → mobile deployment pipeline.",
+            "Fixed critical bugs in the Attention layer (N-D input support), custom model weight serialization with nested sublayers, TPU FlashAttention compatibility, OpenVINO backend bugs, and bounding box conversion errors.",
+            "Identified and patched a namespace-hijacking vulnerability in `deserialize_keras_object` affecting model deserialization security.",
+            "Delivered production-ready on-device LLM deployment on Android (Gemma 3 270M), validating the complete Keras → LiteRT → mobile inference pipeline end-to-end.",
             "Contributed to LiteRT-Torch converter integration for broader CPU/GPU/NPU on-device coverage."
         ],
         "demonstration": "https://keras.io/guides/",
@@ -17,6 +19,7 @@
     {
         "title": "Algorithmic Trading (RL Alpha Labs)",
         "description": "AI-driven trading platform tailored for the Indian stock market, integrating advanced reinforcement learning and heuristic strategies for optimized portfolio management.",
+        "skills": ["Python", "JAX", "Reinforcement Learning", "PyQt", "Streamlit", "SQLite", "REST APIs", "Risk Management"],
         "bullets": [
             "Leveraged Kite-Connect API from Zerodha to build a robust historical data downloader, efficiently retrieving and storing comprehensive market data for stocks, ETFs, and other instruments in a high-performance database.",
             "Designed a custom user interface for seamless portfolio management, real-time paper trading, and algorithm-based automated execution.",
@@ -31,6 +34,7 @@
     {
         "title": "ATS Optimizer",
         "description": "A fully-automated job application pipeline that eliminates every manual step between discovering a job and submitting an application. Built for candidates applying to 50+ jobs per day.",
+        "skills": ["Python", "NLP", "LLM", "Playwright", "Selenium", "Streamlit", "PDF Generation", "Web Scraping"],
         "bullets": [
             "Architected a modular system with five core engines: Candidate Profile, ATS Analysis, Job Discovery, Resume Generation, and Application Automation.",
             "Implemented ATS scoring algorithm using NLP keyword extraction, semantic similarity, and formatting compliance checks.",
@@ -44,6 +48,7 @@
     {
         "title": "Knox Capture",
         "description": "Led the development of an innovative solution for scanning damaged barcodes on mobile devices, leveraging advanced synthetic dataset generation and cutting-edge computer vision techniques to overcome real-world challenges.",
+        "skills": ["Python", "Kotlin", "Android", "YOLO", "Mask R-CNN", "U-Net", "ResNet", "OpenCV", "Synthetic Data", "TFLite"],
         "bullets": [
             "Pioneered a comprehensive barcode scanning system encompassing detection, segmentation, damage correction, and decoding of compromised barcodes.",
             "Engineered a groundbreaking algorithm integrating mathematics, statistics, and geometric transformations to produce high-fidelity, photorealistic synthetic datasets, addressing the critical shortage of natural damaged barcode data.",
@@ -60,6 +65,7 @@
     {
         "title": "SRIN-Satyapan",
         "description": "Engineered a comprehensive anti-cheat proctored exam platform featuring advanced face recognition for secure candidate authentication and real-time face detection to flag potential plagiarism. Delivered a full-stack solution encompassing a web portal for examiners, a robust Android application for candidates, and a centralized server for seamless data management and AI-driven monitoring, ensuring integrity in remote assessments.",
+        "skills": ["Python", "Kotlin", "Java", "Android", "Face Recognition", "Flask", "Django", "Web Development", "SQLite"],
         "bullets": [
             "Real-time face recognition-based authentication for candidates.",
             "Intelligent flagging of multiple persons or unauthorized individuals on screen, with safeguards to avoid false positives for random exam hall appearances.",
@@ -75,6 +81,7 @@
     {
         "title": "Face Recognition",
         "description": "Developed an advanced real-time multiple face recognition system for live camera feeds and offline video processing. Originally built at Samsung R&D and later open-sourced.",
+        "skills": ["Python", "OpenCV", "ONNX", "YOLO", "Face Recognition", "Android", "Windows", "Linux"],
         "bullets": [
             "Optimized database search efficiency from linear to logarithmic time complexity, achieving a dramatic reduction in search time from 1200ms to 87ms on Android tablets for face embedding searches.",
             "Generated a custom dataset of face embeddings and trained a proprietary classifier on this dataset to enhance recognition accuracy and surpass limitations of standard methods.",
@@ -87,6 +94,7 @@
     {
         "title": "Distraction Detection",
         "description": "Implemented an intelligent system to monitor user attention during screen-based activities, utilizing facial expression analysis, eye movement tracking, yawn detection, head pose estimation, and robust face detection algorithms to accurately identify distracted states and promote focused engagement. This solution was deployed on Android devices and integrated into SRI-N Satyapan for enhanced proctoring capabilities.",
+        "skills": ["Python", "Kotlin", "Android", "Face Detection", "OpenCV", "Sensor Fusion"],
         "bullets": [],
         "demonstration": "",
         "code": ""
@@ -94,6 +102,7 @@
     {
         "title": "Car Crash Detection",
         "description": "Created a smartphone-based emergency response system to detect car crash incidents in real-time using onboard sensors, automatically triggering SOS alerts to designated contacts for rapid assistance and improved road safety.",
+        "skills": ["Python", "Kotlin", "Android", "Sensor Fusion", "Statistical Modeling", "Emergency Systems"],
         "bullets": [
             "Overcame the major challenge of insufficient accident sensor data by collecting comprehensive datasets from non-accident scenarios including rash driving, phone throwing, loud music, and movies.",
             "Developed a statistical model to accurately flag potential accidents.",
@@ -105,6 +114,7 @@
     {
         "title": "Drop Detection",
         "description": "Achieved a groundbreaking reduction in model parameters from millions to fewer than 20, maintaining high accuracy with only a minimal drop from 98% to 96%, enabling efficient on-device deployment.",
+        "skills": ["Python", "Kotlin", "Android", "Sensor Fusion", "Model Compression", "Statistical Modeling"],
         "bullets": [
             "Developed a sophisticated mobile solution for detecting phone drops, estimating fall height, classifying collision surface hardness, and verifying drop versus catch events through advanced sensor fusion and predictive analytics.",
             "Replaced the existing deep learning-based solution with efficient statistical models and simple ML algorithms.",
@@ -116,6 +126,7 @@
     {
         "title": "Object Detection Tutorial",
         "description": "Educational notebook and synthetic dataset demonstrating object detection as a machine learning problem, covering bounding box regression, binary classification, and multi-class classification.",
+        "skills": ["Python", "Jupyter", "Object Detection", "NumPy", "Matplotlib", "Computer Vision"],
         "bullets": [
             "Created a synthetic shape dataset to visualize core object detection concepts.",
             "Demonstrated bounding box regression as a coordinate prediction problem.",
@@ -128,6 +139,7 @@
     {
         "title": "Shadow Removal",
         "description": "Computer vision project implementing iterative shading and reflectance estimation for automatic shadow removal in images.",
+        "skills": ["Python", "OpenCV", "NumPy", "Computer Vision", "Image Processing"],
         "bullets": [
             "Implemented adaptive thresholding using integral images for fast local region analysis.",
             "Developed iterative shading and reflectance decomposition to isolate and remove shadows.",
@@ -139,6 +151,7 @@
     {
         "title": "Data Structures & Algorithms",
         "description": "Comprehensive Python implementations of advanced data structures and algorithms from CLRS and competitive programming.",
+        "skills": ["Python", "Algorithms", "Data Structures", "Competitive Programming", "CLRS"],
         "bullets": [
             "Implemented van Emde Boas Tree with both O(u) and O(n log log u) space optimizations.",
             "Built Red-Black Trees, AVL Trees, Splay Trees, and Treaps with full balancing logic.",
@@ -152,11 +165,12 @@
     {
         "title": "Academic Foundations",
         "description": "A collection of foundational machine learning, artificial intelligence, and web development projects from coursework at MIT, Harvard (CS50), and UC Berkeley (CS188).",
+        "skills": ["Python", "Jupyter", "Scikit-Learn", "TensorFlow", "PyTorch", "Django", "Flask", "SQL"],
         "bullets": [
-            "MIT Machine Learning: Sentiment analysis perceptron, SVM MNIST digit recognition, overlapping digit CNN, Netflix collaborative filtering with Gaussian Mixtures, Q-learning text game agent.",
-            "Harvard CS50 AI: Maze solver (search algorithms), Degrees (BFS), Tic-Tac-Toe AI (Minimax), Minesweeper AI (propositional logic), Crossword CSP solver, probabilistic reasoning (PageRank, Bayes nets), Shopping (KNN), NIM (RL), Traffic Sign CNN classification.",
-            "UC Berkeley CS188 AI: PacMan AI with A* search, heuristics, and reinforcement learning.",
-            "CS50 Web: Wiki (Django Wikipedia clone), Finance (Flask stock trading app)."
+            "MIT Machine Learning: Sentiment analysis perceptron, SVM MNIST digit recognition, overlapping digit CNN, Netflix collaborative filtering with Gaussian Mixtures, Q-learning text game agent. ([code](https://github.com/pctablet505/Machine-Learning))",
+            "Harvard CS50 AI: Maze solver (search algorithms), [Degrees](https://cs50.harvard.edu/ai/2020/projects/0/degrees/) (BFS), [Tic-Tac-Toe AI](https://www.youtube.com/watch?v=tp9DjqV_KoU) (Minimax), [Minesweeper AI](https://cs50.harvard.edu/ai/2020/projects/1/minesweeper/) (propositional logic), [Crossword CSP solver](https://cs50.harvard.edu/ai/2020/projects/3/crossword/), probabilistic reasoning (PageRank, Bayes nets), Shopping (KNN), NIM (RL), [Traffic Sign CNN](https://cs50.harvard.edu/ai/2020/projects/5/traffic/). ([code](https://github.com/pctablet505/Artificial-Intelligence))",
+            "UC Berkeley CS188 AI: [PacMan AI](https://inst.eecs.berkeley.edu/~cs188/sp21/project1/) with A* search, heuristics, and reinforcement learning. ([code](https://github.com/pctablet505/CS188-AI))",
+            "CS50 Web: [Wiki](https://github.com/pctablet505/Wiki) (Django Wikipedia clone), [Finance](https://github.com/pctablet505/CS50-Finance) (Flask stock trading app)."
         ],
         "demonstration": "",
         "code": "https://github.com/pctablet505/Artificial-Intelligence"
@@ -164,6 +178,7 @@
     {
         "title": "HomePage",
         "description": "Personal portfolio homepage containing details about hobbies, interests, and projects. Built using Flask, HTML, CSS, JavaScript.",
+        "skills": ["Python", "Flask", "HTML", "CSS", "JavaScript", "Bootstrap"],
         "bullets": [],
         "demonstration": "https://pctablet505.github.io/",
         "code": "https://github.com/pctablet505/pctablet505.github.io"

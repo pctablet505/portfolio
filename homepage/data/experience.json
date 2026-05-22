@@ -6,13 +6,16 @@
         "duration": "Feb 2025 – Present",
         "position": "Software Engineer (Machine Learning)",
         "description": "Keras Team — deep learning framework development, LiteRT model export, and cross-backend portability (TensorFlow, PyTorch, JAX).",
+        "skills": ["Python", "Keras", "TensorFlow", "PyTorch", "JAX", "LiteRT", "TFLite", "ONNX", "OpenVINO", "Android", "Kotlin", "CI/CD", "Starlark"],
         "bullets": [
             "Shipped LiteRT export support for the PyTorch backend in Keras 3, enabling seamless on-device deployment of PyTorch-trained models via TensorFlow Lite / LiteRT.",
+            "Built LiteRT-LM export for KerasHub with prefill/decode signatures, enabling optimized on-device large language model inference (LLMs on mobile).",
+            "Maintained cross-backend compatibility across TensorFlow, PyTorch, and JAX in Keras 3: resolved breaking changes, backported SavedModel export workarounds, and ensured compatibility across TF 2.20, Python 3.13, and Orbax checkpointing.",
             "Authored the official Keras.io guide for exporting models to LiteRT, adopted as canonical documentation for the ecosystem.",
             "Contributed 75+ PRs across keras-team/keras, keras-team/keras-hub, and tensorflow/tensorflow: bug fixes, performance optimizations, security patches, and new export capabilities.",
-            "Fixed critical production issues: Attention layer N-D input support, custom model weight serialization with nested sublayers, TPU FlashAttention compatibility, OpenVINO backend bugs.",
-            "Identified and patched a namespace-hijacking vulnerability in deserialize_keras_object affecting model deserialization security.",
-            "Built end-to-end Android demos (Gemma 3 270M on-device LLM inference) showcasing Keras → LiteRT → mobile deployment pipeline."
+            "Fixed critical production issues: Attention layer N-D input support, custom model weight serialization with nested sublayers, TPU FlashAttention compatibility, OpenVINO backend bugs, and bounding box conversion errors.",
+            "Identified and patched a namespace-hijacking vulnerability in `deserialize_keras_object` affecting model deserialization security.",
+            "Delivered production-ready on-device LLM deployment on Android (Gemma 3 270M), validating the complete Keras → LiteRT → mobile inference pipeline end-to-end."
         ]
     },
     {
@@ -22,6 +25,7 @@
         "duration": "Sept 2024 – Jan 2025",
         "position": "Machine Learning Engineer",
         "description": "On-device AI implementation, DSP-optimized solutions, and Android demos for state-of-the-art computer vision applications.",
+        "skills": ["Python", "C++", "DSP", "Snapdragon", "TFLite", "LiteRT", "Android", "Kotlin", "NNAPI", "GPU Delegation", "NPU"],
         "bullets": [
             "Developed DSP-optimized inference pipelines for computer vision models on Qualcomm Snapdragon platforms.",
             "Built production Android demos demonstrating hardware-accelerated AI (GPU, DSP, NPU delegation) for client presentations and benchmarking."
@@ -34,6 +38,7 @@
         "duration": "July 2022 – Sept 2024",
         "position": "Research & Development Engineer",
         "description": "Led development of multiple AI-powered products: computer vision systems, sensor-fusion models, and full-stack Android + web solutions.",
+        "skills": ["Python", "Kotlin", "Java", "Android", "YOLO", "Mask R-CNN", "U-Net", "ResNet", "OpenCV", "TFLite", "Face Recognition", "Sensor Fusion", "SQLite", "Django", "Flask"],
         "bullets": [
             "Led Knox Capture: end-to-end barcode scanning system for damaged barcodes using YOLOv11 detection, Mask R-CNN segmentation, U-Net restoration, and synthetic dataset generation.",
             "Architected SRIN-Satyapan: anti-cheat proctored exam platform with real-time face recognition, supporting 10,000+ registered faces across Android and web portals.",
@@ -49,6 +54,7 @@
         "duration": "Jan 2022 – June 2022",
         "position": "Intern",
         "description": "Android development and generative AI research.",
+        "skills": ["Python", "Android", "CycleGAN", "PyTorch", "Java"],
         "bullets": [
             "Trained CycleGAN for generative AI use cases in Samsung's software competency program.",
             "Gained hands-on experience with Android Studio, on-device model deployment, and ML pipeline integration."
