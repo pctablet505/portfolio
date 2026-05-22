@@ -137,8 +137,6 @@ Selected contributions to the Keras and TensorFlow ecosystems:
 	- Orchestrated full end-to-end deployment: from algorithmic problem formulation and probabilistic dataset synthesis incorporating reflection physics, through rigorous deep learning model training for detection, segmentation, correction, and classification, culminating in optimized on-device Android implementation with hardware-accelerated camera integration and ultra-fast ML inference capabilities.
 	- Introduced confidence score prediction for detections, allowing the system to intelligently assess barcode damage levels and abstain from restoration when damage exceeds recoverable thresholds, thereby drastically reducing incorrect decoding rates and enhancing overall system trustworthiness.
 
-	*Private repository — code available on request.*
-
 	___
 5.	### SRIN-Satyapan
 
@@ -171,8 +169,6 @@ Selected contributions to the Keras and TensorFlow ecosystems:
 
 	Implemented an intelligent system to monitor user attention during screen-based activities, utilizing facial expression analysis, eye movement tracking, yawn detection, head pose estimation, and robust face detection algorithms to accurately identify distracted states and promote focused engagement. This solution was deployed on Android devices and integrated into SRI-N Satyapan for enhanced proctoring capabilities.
 
-	*Private repository — code available on request.*
-
 	___
 8.	### Car Crash Detection
 
@@ -181,8 +177,6 @@ Selected contributions to the Keras and TensorFlow ecosystems:
 	- Overcame the major challenge of insufficient accident sensor data by collecting comprehensive datasets from non-accident scenarios including rash driving, phone throwing, loud music, and movies.
 	- Developed a statistical model to accurately flag potential accidents.
 	- Implemented the solution on Android phones for seamless integration.
-
-	*Private repository — code available on request.*
 
 	___
 9.	### Drop Detection
