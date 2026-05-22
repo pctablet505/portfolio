@@ -1,20 +1,22 @@
 [
     {
-        "title": "Keras & LiteRT Ecosystem",
-        "description": "Active contributor to the Keras ecosystem at Google. Driving LiteRT (TensorFlow Lite Runtime) export capabilities, cross-backend model portability, and production-grade deep learning infrastructure.",
+        "title": "Keras & LiteRT Ecosystem (Google)",
+        "description": "Professional open-source work as part of the Keras Team at Google. Driving LiteRT (TensorFlow Lite Runtime) export capabilities, cross-backend model portability, and production-grade deep learning infrastructure used by millions of developers.",
         "bullets": [
-            "Implemented LiteRT export support for the PyTorch backend in Keras 3, enabling seamless on-device deployment of PyTorch-trained models.",
-            "Fixed critical bugs in the Attention layer (N-D input support) and custom model weight serialization with nested sublayers.",
+            "Implemented LiteRT export support for the PyTorch backend in Keras 3, enabling seamless on-device deployment of PyTorch-trained models via TFLite / LiteRT.",
+            "Built LiteRT-LM export for KerasHub with prefill/decode signatures, optimized for on-device large language model inference.",
             "Authored the official Keras.io guide for exporting models to LiteRT, covering TensorFlow and PyTorch backends with end-to-end examples.",
-            "Contributed to keras-hub pretrained model hub and LiteRT-Torch converter integration for broader CPU/GPU/NPU on-device coverage.",
-            "Backported SavedModel export workarounds and resolved compatibility issues across Keras 3, TF 2.20, and Python 3.13."
+            "Fixed critical bugs in the Attention layer (N-D input support), custom model weight serialization with nested sublayers, and TPU FlashAttention compatibility.",
+            "Identified and patched a namespace-hijacking vulnerability in deserialize_keras_object affecting model deserialization security.",
+            "Built end-to-end Android demos (Gemma 3 270M IT on-device LLM) demonstrating the full Keras → LiteRT → mobile deployment pipeline.",
+            "Contributed to LiteRT-Torch converter integration for broader CPU/GPU/NPU on-device coverage."
         ],
         "demonstration": "https://keras.io/guides/",
         "code": "https://github.com/pctablet505/keras"
     },
     {
         "title": "Algorithmic Trading (RL Alpha Labs)",
-        "description": "Leading the development of an AI-driven trading platform tailored for the Indian stock market, integrating advanced reinforcement learning and heuristic strategies for optimized portfolio management.",
+        "description": "AI-driven trading platform tailored for the Indian stock market, integrating advanced reinforcement learning and heuristic strategies for optimized portfolio management.",
         "bullets": [
             "Leveraged Kite-Connect API from Zerodha to build a robust historical data downloader, efficiently retrieving and storing comprehensive market data for stocks, ETFs, and other instruments in a high-performance database.",
             "Designed a custom user interface for seamless portfolio management, real-time paper trading, and algorithm-based automated execution.",
@@ -25,18 +27,6 @@
         ],
         "demonstration": "https://pctablet505.github.io/RLAlphaLabs/",
         "code": "https://github.com/pctablet505/AlgoTrading"
-    },
-    {
-        "title": "Gemma TFLite Android Demo",
-        "description": "Minimal Android application demonstrating on-device inference of the Gemma 3 270M IT large language model via TensorFlow Lite / LiteRT, showcasing edge AI deployment for generative AI.",
-        "bullets": [
-            "Built a production-ready Android app in Kotlin for running Gemma 3 270M IT on ARM64 devices with API 31+.",
-            "Integrated model export pipeline from Hugging Face to TFLite format using Keras backend.",
-            "Implemented hardware-accelerated inference with optimized memory footprint for mobile deployment.",
-            "Provided end-to-end documentation covering model export, Android SDK setup, build automation, and device deployment."
-        ],
-        "demonstration": "",
-        "code": "https://github.com/pctablet505/gemma-tflite-android-demo"
     },
     {
         "title": "ATS Optimizer",
@@ -62,8 +52,6 @@
             "Implemented a U-Net-based encoder-decoder architecture for intelligent damage correction and restoration.",
             "Integrated a ResNet classifier for robust categorization of barcode types across diverse formats.",
             "Orchestrated full end-to-end deployment: from algorithmic problem formulation and probabilistic dataset synthesis incorporating reflection physics, through rigorous deep learning model training for detection, segmentation, correction, and classification, culminating in optimized on-device Android implementation with hardware-accelerated camera integration and ultra-fast ML inference capabilities.",
-            "Addressed limitations of the Muenster Barcode Database, which lacks sufficient damaged barcode samples for robust training, by creating a synthetic dataset that enabled superior model performance.",
-            "Benchmarking revealed that existing solutions achieved approximately 84% detection accuracy and 67% correct decoding on damaged barcodes; our innovative approach elevated these metrics to 70-75% for both detection and decoding, representing a significant leap in reliability.",
             "Introduced confidence score prediction for detections, allowing the system to intelligently assess barcode damage levels and abstain from restoration when damage exceeds recoverable thresholds, thereby drastically reducing incorrect decoding rates and enhancing overall system trustworthiness."
         ],
         "demonstration": "",
@@ -86,9 +74,8 @@
     },
     {
         "title": "Face Recognition",
-        "description": "Developed an advanced real-time multiple face recognition system for live camera feeds and offline video processing.",
+        "description": "Developed an advanced real-time multiple face recognition system for live camera feeds and offline video processing. Originally built at Samsung R&D and later open-sourced.",
         "bullets": [
-            "Developed an advanced real-time multiple face recognition system for live camera feeds and offline video processing.",
             "Optimized database search efficiency from linear to logarithmic time complexity, achieving a dramatic reduction in search time from 1200ms to 87ms on Android tablets for face embedding searches.",
             "Generated a custom dataset of face embeddings and trained a proprietary classifier on this dataset to enhance recognition accuracy and surpass limitations of standard methods.",
             "Built integrated surveillance and entry management systems leveraging this technology for enhanced security and access control.",
@@ -108,7 +95,6 @@
         "title": "Car Crash Detection",
         "description": "Created a smartphone-based emergency response system to detect car crash incidents in real-time using onboard sensors, automatically triggering SOS alerts to designated contacts for rapid assistance and improved road safety.",
         "bullets": [
-            "Created a smartphone-based emergency response system to detect car crash incidents in real-time using onboard sensors, automatically triggering SOS alerts to designated contacts for rapid assistance and improved road safety.",
             "Overcame the major challenge of insufficient accident sensor data by collecting comprehensive datasets from non-accident scenarios including rash driving, phone throwing, loud music, and movies.",
             "Developed a statistical model to accurately flag potential accidents.",
             "Implemented the solution on Android phones for seamless integration."
@@ -120,7 +106,6 @@
         "title": "Drop Detection",
         "description": "Achieved a groundbreaking reduction in model parameters from millions to fewer than 20, maintaining high accuracy with only a minimal drop from 98% to 96%, enabling efficient on-device deployment.",
         "bullets": [
-            "Achieved a groundbreaking reduction in model parameters from millions to fewer than 20, maintaining high accuracy with only a minimal drop from 98% to 96%, enabling efficient on-device deployment.",
             "Developed a sophisticated mobile solution for detecting phone drops, estimating fall height, classifying collision surface hardness, and verifying drop versus catch events through advanced sensor fusion and predictive analytics.",
             "Replaced the existing deep learning-based solution with efficient statistical models and simple ML algorithms.",
             "Significantly improved power consumption and computational efficiency."
@@ -165,116 +150,16 @@
         "code": "https://github.com/pctablet505/Data-Structures"
     },
     {
-        "title": "PacMan AI",
-        "description": "AI-based intelligent agent to control Pacman in different environments. The Pacman plays against the ghosts and tries to eat all food while staying safe from ghosts and finishing in minimum time. The Pacman uses different methods like A* Search, Heuristics, Reinforcement Learning with different parameters.",
-        "bullets": [],
-        "demonstration": "https://inst.eecs.berkeley.edu/~cs188/sp21/project1/",
-        "code": "https://github.com/pctablet505/CS188-AI/tree/main/proj1-search-python3"
-    },
-    {
-        "title": "Automatic Review Analyzer",
-        "description": "Sentiment analysis for customer reviews using a simple perceptron algorithm.",
-        "bullets": [],
-        "demonstration": "",
-        "code": "https://github.com/pctablet505/Machine-Learning/tree/main/Project1/sentiment_analysis"
-    },
-    {
-        "title": "MNIST Digit Recognition",
-        "description": "Classification of digits using support vector machine and gradient descent.",
-        "bullets": [],
-        "demonstration": "",
-        "code": "https://github.com/pctablet505/Machine-Learning/tree/main/Project2/mnist/part1"
-    },
-    {
-        "title": "Overlapping Digit Recognition",
-        "description": "Classification of overlapping digits which contain multiple digits in a single image, where a digit is written over another digit, using Convolutional Neural Networks.",
-        "bullets": [],
-        "demonstration": "",
-        "code": "https://github.com/pctablet505/Machine-Learning/tree/main/Project2/mnist/part2-twodigit"
-    },
-    {
-        "title": "Collaborative Filtering via Gaussian Mixtures",
-        "description": "Recommender system for Netflix using Gaussian Mixtures models and EM algorithm. Ratings of few users for different movies are provided as input and ratings for movies which the user has not rated are calculated. It achieves very nice accuracy.",
-        "bullets": [],
-        "demonstration": "",
-        "code": "https://github.com/pctablet505/Machine-Learning/tree/main/project4/resources_netflix/netflix"
-    },
-    {
-        "title": "Text game using Reinforcement Learning",
-        "description": "It is a game in which a robot is given tasks in a room and learns to play it. Implementations using Q learning, Q learning with approximations, using neural networks to reduce the exponential size Q Tables.",
-        "bullets": [],
-        "demonstration": "",
-        "code": "https://github.com/pctablet505/Machine-Learning/tree/main/project5/rl"
-    },
-    {
-        "title": "Maze Solver",
-        "description": "Demonstration of complexity, speed, effectiveness of different search algorithms.",
-        "bullets": [],
+        "title": "Academic Foundations",
+        "description": "A collection of foundational machine learning, artificial intelligence, and web development projects from coursework at MIT, Harvard (CS50), and UC Berkeley (CS188).",
+        "bullets": [
+            "MIT Machine Learning: Sentiment analysis perceptron, SVM MNIST digit recognition, overlapping digit CNN, Netflix collaborative filtering with Gaussian Mixtures, Q-learning text game agent.",
+            "Harvard CS50 AI: Maze solver (search algorithms), Degrees (BFS), Tic-Tac-Toe AI (Minimax), Minesweeper AI (propositional logic), Crossword CSP solver, probabilistic reasoning (PageRank, Bayes nets), Shopping (KNN), NIM (RL), Traffic Sign CNN classification.",
+            "UC Berkeley CS188 AI: PacMan AI with A* search, heuristics, and reinforcement learning.",
+            "CS50 Web: Wiki (Django Wikipedia clone), Finance (Flask stock trading app)."
+        ],
         "demonstration": "",
         "code": "https://github.com/pctablet505/Artificial-Intelligence"
-    },
-    {
-        "title": "Degrees",
-        "description": "Calculation of minimum degree of separation between actors in Hollywood. Separation is in terms of working together.",
-        "bullets": [],
-        "demonstration": "https://cs50.harvard.edu/ai/2020/projects/0/degrees/",
-        "code": "https://github.com/pctablet505/Artificial-Intelligence/tree/main/degrees"
-    },
-    {
-        "title": "Tic-Tac-Toe AI",
-        "description": "Minimax and Alpha-Beta pruning based undefeatable intelligent agent to play against human.",
-        "bullets": [],
-        "demonstration": "https://www.youtube.com/watch?v=tp9DjqV_KoU",
-        "code": "https://github.com/pctablet505/Artificial-Intelligence/tree/main/tictactoe"
-    },
-    {
-        "title": "Minesweeper AI",
-        "description": "Knowledge-based intelligent agent to play Minesweeper which reasons using propositional logic.",
-        "bullets": [],
-        "demonstration": "https://cs50.harvard.edu/ai/2020/projects/1/minesweeper/",
-        "code": "https://github.com/pctablet505/Artificial-Intelligence/tree/main/minesweeper"
-    },
-    {
-        "title": "CSP solver for Crossword Puzzle",
-        "description": "Solves crossword puzzles by modeling it into a Constraint Satisfaction Problem and then using backtracking search with different heuristics to improve performance.",
-        "bullets": [],
-        "demonstration": "https://cs50.harvard.edu/ai/2020/projects/3/crossword/",
-        "code": "https://github.com/pctablet505/Artificial-Intelligence/tree/main/crossword"
-    },
-    {
-        "title": "Probabilistic models for reasoning under uncertainty",
-        "description": "To demonstrate page ranking and gene inheritance, by sampling and using bayes-net.",
-        "bullets": [],
-        "demonstration": "https://cs50.harvard.edu/ai/2020/projects/2/",
-        "code": "https://github.com/pctablet505/Artificial-Intelligence/tree/main/probabilistic%20models"
-    },
-    {
-        "title": "Shopping",
-        "description": "K Nearest Neighbour model to predict whether a customer will make the purchase or not.",
-        "bullets": [],
-        "demonstration": "https://cs50.harvard.edu/ai/2020/projects/4/shopping/",
-        "code": "https://github.com/pctablet505/Artificial-Intelligence/tree/main/shopping"
-    },
-    {
-        "title": "NIM",
-        "description": "Playing NIM against human. Trained using reinforcement learning.",
-        "bullets": [],
-        "demonstration": "https://cs50.harvard.edu/ai/2020/projects/4/nim/",
-        "code": "https://github.com/pctablet505/Artificial-Intelligence/tree/main/nim"
-    },
-    {
-        "title": "Traffic Sign classification",
-        "description": "CNN model for 43 class classification of traffic sign boards.",
-        "bullets": [],
-        "demonstration": "https://cs50.harvard.edu/ai/2020/projects/5/traffic/",
-        "code": "https://github.com/pctablet505/Artificial-Intelligence/tree/main/traffic"
-    },
-    {
-        "title": "CS50 Wiki",
-        "description": "Mini version of Wikipedia with almost all features of Wikipedia. Built using Django, HTML, Jinja, CSS, SASS.",
-        "bullets": [],
-        "demonstration": "",
-        "code": "https://github.com/pctablet505/Wiki"
     },
     {
         "title": "HomePage",
@@ -282,12 +167,5 @@
         "bullets": [],
         "demonstration": "https://pctablet505.github.io/",
         "code": "https://github.com/pctablet505/pctablet505.github.io"
-    },
-    {
-        "title": "CS50-Finance",
-        "description": "A lite app to get quotes of stocks and to perform buy, sell stocks. Technologies used: Flask, SQL, APIs, JSON, Heroku, GIT.",
-        "bullets": [],
-        "demonstration": "",
-        "code": "https://github.com/pctablet505/CS50-Finance"
     }
 ]

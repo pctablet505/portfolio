@@ -1,23 +1,23 @@
 [
     {
         "title": "Programming Languages",
-        "details": ["Python", "C", "C++", "Java", "Kotlin", "JavaScript"]
+        "details": ["Python", "C", "C++", "Java", "Kotlin", "JavaScript", "Starlark"]
     },
     {
         "title": "Deep Learning Frameworks",
-        "details": ["Keras", "TensorFlow", "PyTorch", "JAX", "LiteRT", "TFLite"]
+        "details": ["Keras", "TensorFlow", "PyTorch", "JAX", "LiteRT", "TFLite", "ONNX", "OpenVINO"]
     },
     {
         "title": "Machine Learning",
-        "details": ["Regression", "Classification", "Clustering", "Recommendation", "Collaborative Filtering", "Reinforcement Learning", "Generative AI"]
+        "details": ["Regression", "Classification", "Clustering", "Recommendation", "Collaborative Filtering", "Reinforcement Learning", "Generative AI", "Model Quantization", "Model Pruning"]
     },
     {
         "title": "Computer Vision",
-        "details": ["Object Detection", "Image Segmentation", "Face Recognition", "Synthetic Dataset Generation", "Geometric Transformations", "Shadow Removal"]
+        "details": ["Object Detection", "Image Segmentation", "Face Recognition", "Synthetic Dataset Generation", "Geometric Transformations", "Shadow Removal", "YOLO", "Mask R-CNN", "U-Net"]
     },
     {
         "title": "Edge AI & On-Device ML",
-        "details": ["Model Quantization", "LiteRT Export", "DSP Optimization", "Android NNAPI", "GPU Delegation", "NPU Inference"]
+        "details": ["LiteRT Export", "TFLite Conversion", "DSP Optimization", "Android NNAPI", "GPU Delegation", "NPU Inference", "Model Compression", "Post-Training Quantization"]
     },
     {
         "title": "Data Analysis and Statistics",
@@ -25,18 +25,18 @@
     },
     {
         "title": "Tools and Libraries",
-        "details": ["NumPy", "OpenCV", "Scikit-Learn", "Pandas", "Seaborn", "Matplotlib", "Playwright", "Selenium"]
+        "details": ["NumPy", "OpenCV", "Scikit-Learn", "Pandas", "Seaborn", "Matplotlib", "Playwright", "Selenium", "Docker", "CI/CD"]
     },
     {
         "title": "Android Development",
-        "details": ["Java", "Kotlin", "ML model porting", "Services", "Fragments", "Rest APIs", "Sensor Access", "Camera2 API"]
+        "details": ["Java", "Kotlin", "Jetpack Compose", "ML model porting", "Services", "Fragments", "Rest APIs", "Sensor Access", "Camera2 API"]
     },
     {
         "title": "Web Development",
         "details": ["Flask", "Django", "HTML", "SASS", "CSS", "Bootstrap", "SQL", "MVC", "Git"]
     },
     {
-        "title": "IOT",
+        "title": "IoT",
         "details": ["Arduino", "Sensors", "Wireless Control"]
     }
 ]

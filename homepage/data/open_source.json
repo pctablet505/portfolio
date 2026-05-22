@@ -1,0 +1,74 @@
+[
+    {
+        "repo": "keras-team/keras",
+        "title": "Add LiteRT export support for PyTorch backend",
+        "state": "merged",
+        "impact": "Enabled on-device deployment of PyTorch-trained Keras 3 models via TensorFlow Lite / LiteRT."
+    },
+    {
+        "repo": "keras-team/keras",
+        "title": "Fix Attention layer hardcodes 3-D shape assumptions, breaking N-D inputs",
+        "state": "merged",
+        "impact": "Restored N-D input support in Attention layer for transformer variants with >3D tensors."
+    },
+    {
+        "repo": "keras-team/keras",
+        "title": "Fix namespace hijacking and callable injection in deserialize_keras_object",
+        "state": "merged",
+        "impact": "Closed a security vulnerability in model deserialization that allowed arbitrary code execution."
+    },
+    {
+        "repo": "keras-team/keras",
+        "title": "Auto-enable tf2onnx large_model for models >1.5GB",
+        "state": "merged",
+        "impact": "Fixed ONNX export failures for large models (e.g., Gemma, LLaMA) without manual user intervention."
+    },
+    {
+        "repo": "keras-team/keras",
+        "title": "Fix Keras LiteRT export for Keras 3 + TF 2.20 + Python 3.13",
+        "state": "merged",
+        "impact": "Restored LiteRT export compatibility across latest Keras, TensorFlow, and Python releases."
+    },
+    {
+        "repo": "keras-team/keras",
+        "title": "Fix custom models/layers with sublayers in nested lists fail to save/load weights",
+        "state": "merged",
+        "impact": "Resolved weight serialization failures for complex nested architectures."
+    },
+    {
+        "repo": "keras-team/keras-hub",
+        "title": "Implement KerasHub → LiteRT-LM export with prefill/decode signatures",
+        "state": "open",
+        "impact": "Enabling optimized on-device LLM inference with separate prefill and decode phases."
+    },
+    {
+        "repo": "keras-team/keras-hub",
+        "title": "LiteRT export with Torch backend",
+        "state": "open",
+        "impact": "Extending on-device LLM coverage to PyTorch-trained KerasHub models."
+    },
+    {
+        "repo": "keras-team/keras-hub",
+        "title": "Fix Flux model LiteRT export failures by reducing tensor dimensions",
+        "state": "merged",
+        "impact": "Unblocked on-device deployment of Flux diffusion models via LiteRT."
+    },
+    {
+        "repo": "keras-team/keras-hub",
+        "title": "Fix Gemma3InterleaveEmbeddings JAX inference error by ensuring indices are int32",
+        "state": "merged",
+        "impact": "Fixed JAX-backend crash for Gemma 3 models on TPU/GPU."
+    },
+    {
+        "repo": "keras-team/keras-io",
+        "title": "Add guide for exporting Keras models to LiteRT",
+        "state": "open",
+        "impact": "Official documentation adopted as canonical reference for Keras → LiteRT export."
+    },
+    {
+        "repo": "google-ai-edge/litert-torch",
+        "title": "Preserve dict keys in flat_arg_names for positional args",
+        "state": "open",
+        "impact": "Improving API usability when converting PyTorch models with dictionary inputs to LiteRT."
+    }
+]
